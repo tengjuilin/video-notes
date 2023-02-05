@@ -28,5 +28,21 @@ Department of Chemical Engineering, University of Washington
 ## Laplace transform of a derivative
 
 $$
-\mathcal{L}[f^{(n)}(t)] = s^n F(s) - s^{n-1} f(0) - s^{n-2} f'(0) - \cdots - sf^{(n-2)}(0) - f^{(n-1)}(0)
+\boxed{\mathcal{L}[f^{(n)}(t)] = s^n F(s) - s^{n-1} f(0) - s^{n-2} f'(0) - \cdots - sf^{(n-2)}(0) - f^{(n-1)}(0)}
+$$
+
+## Final value theorem
+
+**Ex.** Proof the final value theorem.
+
+$$
+\boxed{\lim_{t \to\infty} y(t) = \lim_{s \to 0} [sY(s)]}
+$$
+
+## Initial value theorem
+
+**Ex.** Proof the initial value theorem.
+
+$$
+\boxed{\lim_{t \to 0} y(t) = \lim_{s \to \infty} [sY(s)]}
 $$
