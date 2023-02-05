@@ -61,3 +61,49 @@ Recall $\sin(at) = \mathcal{L}^{-1}\left[\dfrac{a}{s^{2}+a^{2}} \right]$
 ## Partial fractions and linearity
 
 **Ex.** Evaluate $\mathcal{L}^{-1} \left[\dfrac{1}{(s-1)(s+4)}\right]$
+
+## Partial fraction by Heaviside expansion (cover-up method)
+
+**Ex.** Evaluate $\mathcal{L}^{-1} \left[\dfrac{1}{(s-1)(s+4)}\right]$ with Heaviside expansion.
+
+1. Set up partial fraction expansion
+2. Multiply both sides by one denominator term $(s + a)$
+3. Evaluate at $s = -a$
+4. Solve for coefficient
+
+<br/><br/>
+
+1. Cover up denominator term $(s+a)$
+2. Evaluate at $s = -a$
+3. The result is the coeff for the term
+
+<br/>
+
+Limitation: Rational function of $s$ with distinct linear factors in denominator
+
+## Partial fraction by Heaviside expansion (cover-up method)
+
+**Ex.** Evaluate $\mathcal{L}^{-1} \left[\dfrac{1}{(s-1)(s+4)}\right]$ with Heaviside expansion.
+
+1. Set up partial fraction expansion
+2. Multiply both sides by one denominator term $(s + a)$
+3. Evaluate at $s = -a$
+4. Solve for coefficient
+
+<br/><br/>
+
+1. Cover up denominator term $(s+a)$
+2. Evaluate at $s = -a$
+3. The result is the coeff for the term
+
+<br/>
+
+Limitation: Rational function of $s$ with distinct linear factors in denominator
+
+## Partial fraction by Heaviside expansion (cover-up method)
+
+**Ex.** Evaluate $\mathcal{L}^{-1} \left[\dfrac{1}{(s-1)(s+4)}\right]$ with Heaviside expansion.
+
+## Cover-up method is great for more complicated expressions
+
+**Zill Remarks 4.2.ii** Evaluate $\mathcal{L}^{-1} \left[\dfrac{s^2 + 6s + 9}{(s-1)(s-2)(s+4)}\right]$ with Heaviside expansion.
