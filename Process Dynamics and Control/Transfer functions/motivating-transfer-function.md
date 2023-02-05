@@ -41,6 +41,16 @@ where $x$ is the input and $y$ is the output, by defining deviation variable of 
 - Derive ODE in deviation variables
 - Get transfer function in $\mathcal{L}$ space
 
+## Deviation variables have vanishing initial condition at steady-state in $\mathcal{L}$ space
+
+**Ex.** Find the Laplace-transformed output deviation $Y'(s)$ of the ODE
+
+$$
+\dfrac{dy}{dt} = x - y
+$$
+
+where $x$ is the input and $y$ is the output, by defining deviation variable of $y' = y - \overline{y}$.
+
 ## Transfer function maps input-output relationship in the $\mathcal{L}$ space
 
 - **Transfer function** - characterizes dynamic relationship of input and output variables in the Laplace space
@@ -62,7 +72,7 @@ where $x$ and $y$ are the inputs and $z$ is the output.
 
 ## Transfer function can predict step change
 
-**Ex.** Determine the response $h(t)$ to a step change in $q_i$ of magnitude $M$ at $t = 0$ using the transfer function
+**Ex.** Determine the response $y(t)$ to a step change in $x$ of magnitude $M$ at $t = 0$ using the transfer function
 
 $$
 G(s) = \dfrac{1}{s+1}
