@@ -1,5 +1,16 @@
 # Process Dynamics and Control Video Descriptions
 
+- [Process Dynamics and Control Video Descriptions](#process-dynamics-and-control-video-descriptions)
+  - [Laplace transform](#laplace-transform)
+    - [Definition and Linearity of Laplace Transform [Process Dynamics and Control]](#definition-and-linearity-of-laplace-transform-process-dynamics-and-control)
+    - [Inverse Laplace Transform and Partial Fraction Decomposition [Process Dynamics and Control]](#inverse-laplace-transform-and-partial-fraction-decomposition-process-dynamics-and-control)
+    - [Laplace Transform of Derivatives and Initial and Final Value Theorem [Process Dynamics and Control]](#laplace-transform-of-derivatives-and-initial-and-final-value-theorem-process-dynamics-and-control)
+    - [Laplace Transform of Integrals [Process Dynamics and Control]](#laplace-transform-of-integrals-process-dynamics-and-control)
+    - [Solving ODEs with Laplace Transforms [Process Dynamics and Control]](#solving-odes-with-laplace-transforms-process-dynamics-and-control)
+  - [Transfer functions](#transfer-functions)
+    - [Motivating Transfer Functions [Process Dynamics and Control]](#motivating-transfer-functions-process-dynamics-and-control)
+    - [Transfer Functions of Multivariable ODEs and Linearity [Process Dynamics and Control]](#transfer-functions-of-multivariable-odes-and-linearity-process-dynamics-and-control)
+
 ## Laplace transform
 
 ### Definition and Linearity of Laplace Transform [Process Dynamics and Control]
