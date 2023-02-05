@@ -1,0 +1,157 @@
+# Process Dynamics and Control Video Descriptions
+
+## Laplace transform
+
+### Definition and Linearity of Laplace Transform [Process Dynamics and Control]
+
+```
+We define and motivate Laplace transforms, evaluate Laplace transforms of simple functions, and introduce linearity of Laplace transforms.
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Zill, D. G. (2016). Advanced Engineering Mathematics (6th edition). Jones & Bartlett Learning.
+---------
+%%% CHAPTERS %%%
+00:00 Review of improper integrals
+00:30 Definition of Laplace transform
+01:08 Motivation of Laplace transform
+02:59 Example: L of constant
+05:40 Example: L of linear function
+08:26 Example: L of exp function
+14:24 Example: L of sine function
+21:10 Example: L of piecewise-continuous function
+25:04 Intro to Linearity
+30:01 Laplace transform is linear
+32:20 Example: use linearity
+```
+
+### Inverse Laplace Transform and Partial Fraction Decomposition [Process Dynamics and Control]
+
+```
+We loosely define inverse Laplace transforms, resorting to tabulated values with examples, and introduced partial fraction expansion by Heaviside expansion or the cover-up method.
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process Dynamics and Control (4th ed.). Wiley.
+Zill, D. G. (2016). Advanced Engineering Mathematics (6th edition). Jones & Bartlett Learning.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:23 Definition of inverse Laplace transform
+02:00 Tabulated values
+02:52 Example: inverse Laplace transform
+05:28 Term-wise division and linearity
+08:15 Partial fractions and linearity
+13:41 Heaviside expansion (cover-up method)
+20:22 Example: cover-up method
+```
+
+### Laplace Transform of Derivatives and Initial and Final Value Theorem [Process Dynamics and Control]
+
+```
+We derived the Laplace transform of n-th order derivatives and loosely proved the final and initial value theorems.
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process Dynamics and Control (4th ed.). Wiley.
+Zill, D. G. (2016). Advanced Engineering Mathematics (6th edition). Jones & Bartlett Learning.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:21 L of derivatives
+07:32 L of n-th order derivatives
+09:38 Final value theorem
+13:02 Initial value theorem
+```
+
+### Laplace Transform of Integrals [Process Dynamics and Control]
+
+```
+We derived the Laplace transform of an integral and draw parallel between Laplace transform of derivatives and integrals.
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process Dynamics and Control (4th ed.). Wiley.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:10 Derive L of integral
+03:48 L of derivative and integral
+```
+
+### Solving ODEs with Laplace Transforms [Process Dynamics and Control]
+
+```
+We brought everything together by reviewing the framework for solving ODEs with Laplace transforms and demonstrated with examples.
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process Dynamics and Control (4th ed.). Wiley.
+Zill, D. G. (2016). Advanced Engineering Mathematics (6th edition). Jones & Bartlett Learning.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:21 Method overview
+02:56 Example: first-order ODE
+15:25 Example: second-order ODE
+```
+
+## Transfer functions
+
+### Motivating Transfer Functions [Process Dynamics and Control]
+
+```
+We motivated and defined transfer functions and deviation variables. We derived transfer functions from governing ODEs and used them to predict output changes upon step changes in inputs.
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process Dynamics and Control (4th ed.). Wiley.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:22 Original variable
+02:46 Deviation variable
+10:43 Definition of transfer function
+14:05 Multivariable ODE
+19:13 Transfer func predicts step change
+24:24 Example: get transfer function from ODE
+30:26 Example: get output change using transfer function
+```
+
+### Transfer Functions of Multivariable ODEs and Linearity [Process Dynamics and Control]
+
+```
+We worked an example of finding transfer functions of a multivariable ODE. We show that the transfer functions of different inputs are linearly additive.
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process Dynamics and Control (4th ed.). Wiley.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:12 Example 1: multivariable ODE
+06:00 Example 2: multivariable ODE
+12:01 Linearity of transfer functions
+14:14 Linearity and input-output relationship
+```
