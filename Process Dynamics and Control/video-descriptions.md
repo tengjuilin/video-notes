@@ -197,6 +197,8 @@ Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process D
 ---------
 %%% CHAPTERS %%%
 00:00 Intro
+00:14 Example: steady-state value
+02:17 Example: output response from transfer function
 ```
 
 ### Steady-State Gain [Process Dynamics and Control]
