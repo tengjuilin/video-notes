@@ -12,7 +12,8 @@
   - [Transfer functions](#transfer-functions)
     - [Motivating Transfer Functions [Process Dynamics and Control]](#motivating-transfer-functions-process-dynamics-and-control)
     - [Transfer Functions of Multivariable ODEs and Linearity [Process Dynamics and Control]](#transfer-functions-of-multivariable-odes-and-linearity-process-dynamics-and-control)
-    - [Output Response from Transfer Functions [Process Dynamics and Control]](#output-response-from-transfer-functions-process-dynamics-and-control)
+    - [Transfer Functions Predicts Output Changes [Process Dynamics and Control]](#transfer-functions-predicts-output-changes-process-dynamics-and-control)
+    - [Steady-State Gain [Process Dynamics and Control]](#steady-state-gain-process-dynamics-and-control)
     - [Addition Property of Transfer Functions [Process Dynamics and Control]](#addition-property-of-transfer-functions-process-dynamics-and-control)
     - [Multiplicative Property of Transfer Functions [Process Dynamics and Control]](#multiplicative-property-of-transfer-functions-process-dynamics-and-control)
     - [Linearization of Nonlinear Models [Process Dynamics and Control]](#linearization-of-nonlinear-models-process-dynamics-and-control)
@@ -182,9 +183,40 @@ Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process D
 14:14 Linearity and input-output relationship
 ```
 
-### Output Response from Transfer Functions [Process Dynamics and Control]
+### Transfer Functions Predicts Output Changes [Process Dynamics and Control]
 
-Example 4.5
+```
+We worked an example of finding the output response given a step change of input using transfer functions.
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process Dynamics and Control (4th ed.). Wiley.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+```
+
+### Steady-State Gain [Process Dynamics and Control]
+
+```
+We defined steady-state gain and proved a way to find steady-state gain by setting s = 0 for its transfer function
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process Dynamics and Control (4th ed.). Wiley.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:12 Definition of steady-state gain
+02:29 Evaluation of steady-state gain
+06:08 Example: Evaluation of gain
+```
 
 ### Addition Property of Transfer Functions [Process Dynamics and Control]
 
