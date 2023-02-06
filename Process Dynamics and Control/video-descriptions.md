@@ -144,6 +144,8 @@ Zill, D. G. (2016). Advanced Engineering Mathematics (6th edition). Jones & Bart
 
 ```
 We motivated and defined transfer functions and deviation variables. We derived transfer functions from governing ODEs and used them to predict output changes upon step changes in inputs.
+
+Erratum: Slide 8, liquid height h is the output, which is the "effect", not the "cause".
 ---------
 Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
 Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
