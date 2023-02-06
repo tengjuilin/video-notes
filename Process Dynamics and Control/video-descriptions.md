@@ -6,10 +6,21 @@
     - [Inverse Laplace Transform and Partial Fraction Decomposition [Process Dynamics and Control]](#inverse-laplace-transform-and-partial-fraction-decomposition-process-dynamics-and-control)
     - [Laplace Transform of Derivatives and Initial and Final Value Theorem [Process Dynamics and Control]](#laplace-transform-of-derivatives-and-initial-and-final-value-theorem-process-dynamics-and-control)
     - [Laplace Transform of Integrals [Process Dynamics and Control]](#laplace-transform-of-integrals-process-dynamics-and-control)
+    - [Translation Theorems of Laplace Transform [Process Dynamics and Control]](#translation-theorems-of-laplace-transform-process-dynamics-and-control)
+    - [Laplace Transforms of Special Input Functions [Process Dynamics and Control]](#laplace-transforms-of-special-input-functions-process-dynamics-and-control)
     - [Solving ODEs with Laplace Transforms [Process Dynamics and Control]](#solving-odes-with-laplace-transforms-process-dynamics-and-control)
   - [Transfer functions](#transfer-functions)
     - [Motivating Transfer Functions [Process Dynamics and Control]](#motivating-transfer-functions-process-dynamics-and-control)
     - [Transfer Functions of Multivariable ODEs and Linearity [Process Dynamics and Control]](#transfer-functions-of-multivariable-odes-and-linearity-process-dynamics-and-control)
+    - [Output Response from Transfer Functions [Process Dynamics and Control]](#output-response-from-transfer-functions-process-dynamics-and-control)
+    - [Addition Property of Transfer Functions [Process Dynamics and Control]](#addition-property-of-transfer-functions-process-dynamics-and-control)
+    - [Multiplicative Property of Transfer Functions [Process Dynamics and Control]](#multiplicative-property-of-transfer-functions-process-dynamics-and-control)
+    - [Linearization of Nonlinear Models [Process Dynamics and Control]](#linearization-of-nonlinear-models-process-dynamics-and-control)
+  - [First-Order Processes](#first-order-processes)
+    - [Standard Process Inputs [Process Dynamics and Control]](#standard-process-inputs-process-dynamics-and-control)
+    - [Responses of First-Order Processes [Process Dynamics and Control]](#responses-of-first-order-processes-process-dynamics-and-control)
+  - [Second-Order Processes](#second-order-processes)
+    - [Responses of Second-Order Processes [Process Dynamics and Control]](#responses-of-second-order-processes-process-dynamics-and-control)
 
 ## Laplace transform
 
@@ -102,6 +113,10 @@ Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process D
 03:48 L of derivative and integral
 ```
 
+### Translation Theorems of Laplace Transform [Process Dynamics and Control]
+
+### Laplace Transforms of Special Input Functions [Process Dynamics and Control]
+
 ### Solving ODEs with Laplace Transforms [Process Dynamics and Control]
 
 ```
@@ -166,3 +181,29 @@ Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process D
 12:01 Linearity of transfer functions
 14:14 Linearity and input-output relationship
 ```
+
+### Output Response from Transfer Functions [Process Dynamics and Control]
+
+Example 4.5
+
+### Addition Property of Transfer Functions [Process Dynamics and Control]
+
+Example 4.6
+
+### Multiplicative Property of Transfer Functions [Process Dynamics and Control]
+
+Example 4.7
+
+### Linearization of Nonlinear Models [Process Dynamics and Control]
+
+Example 4.8
+
+## First-Order Processes
+
+### Standard Process Inputs [Process Dynamics and Control]
+
+### Responses of First-Order Processes [Process Dynamics and Control]
+
+## Second-Order Processes
+
+### Responses of Second-Order Processes [Process Dynamics and Control]
