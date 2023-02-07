@@ -283,5 +283,10 @@ Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process D
 ---------
 %%% CHAPTERS %%%
 00:00 Intro
-00:
+00:19 Components of a control loop
+04:08 Definition of proportional control
+11:30 Sign of controller gain
+18:43 Transfer function of proportional control
+21:04 Proportional band
+21:35 Advantages and disadvantages
 ```
