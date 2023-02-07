@@ -59,7 +59,7 @@ $$
 **Ex.** Show that the proportional controller transfer function is
 
 $$
-\boxed{\dfrac{P'(s)}{E(s)} - K_s}
+\boxed{\dfrac{P'(s)}{E(s)} = K_s}
 $$
 
 - Proportional controller:
