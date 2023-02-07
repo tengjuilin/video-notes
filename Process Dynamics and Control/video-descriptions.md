@@ -21,9 +21,16 @@
     - [Linearization of Nonlinear Models [Process Dynamics and Control]](#linearization-of-nonlinear-models-process-dynamics-and-control)
   - [First-Order Processes](#first-order-processes)
     - [Standard Process Inputs [Process Dynamics and Control]](#standard-process-inputs-process-dynamics-and-control)
-    - [Responses of First-Order Processes [Process Dynamics and Control]](#responses-of-first-order-processes-process-dynamics-and-control)
+    - [Step Responses of First-Order Processes [Process Dynamics and Control]](#step-responses-of-first-order-processes-process-dynamics-and-control)
+    - [Ramp Responses of First-Order Processes [Process Dynamics and Control]](#ramp-responses-of-first-order-processes-process-dynamics-and-control)
+    - [Sinusoidal Responses of First-Order Processes [Process Dynamics and Control]](#sinusoidal-responses-of-first-order-processes-process-dynamics-and-control)
   - [Second-Order Processes](#second-order-processes)
-    - [Responses of Second-Order Processes [Process Dynamics and Control]](#responses-of-second-order-processes-process-dynamics-and-control)
+    - [Transfer Function Models of Second-Order Processes [Process Dynamics and Control]](#transfer-function-models-of-second-order-processes-process-dynamics-and-control)
+    - [Step Responses of Second-Order Processes [Process Dynamics and Control]](#step-responses-of-second-order-processes-process-dynamics-and-control)
+    - [Modeling Step Responses of Second-Order Processes [Process Dynamics and Control]](#modeling-step-responses-of-second-order-processes-process-dynamics-and-control)
+    - [Sinusoidal Responses of Second-Order Processes [Process Dynamics and Control]](#sinusoidal-responses-of-second-order-processes-process-dynamics-and-control)
+  - [Feedback Controllers](#feedback-controllers)
+    - [Proportional Control [Process Dynamics and Control]](#proportional-control-process-dynamics-and-control)
 
 ## Intro to Process Dynamics and Control
 
@@ -244,8 +251,37 @@ Example 4.8
 
 ### Standard Process Inputs [Process Dynamics and Control]
 
-### Responses of First-Order Processes [Process Dynamics and Control]
+### Step Responses of First-Order Processes [Process Dynamics and Control]
+
+### Ramp Responses of First-Order Processes [Process Dynamics and Control]
+
+### Sinusoidal Responses of First-Order Processes [Process Dynamics and Control]
 
 ## Second-Order Processes
 
-### Responses of Second-Order Processes [Process Dynamics and Control]
+### Transfer Function Models of Second-Order Processes [Process Dynamics and Control]
+
+### Step Responses of Second-Order Processes [Process Dynamics and Control]
+
+### Modeling Step Responses of Second-Order Processes [Process Dynamics and Control]
+
+### Sinusoidal Responses of Second-Order Processes [Process Dynamics and Control]
+
+## Feedback Controllers
+
+### Proportional Control [Process Dynamics and Control]
+
+```
+We identified basic components in a control loop and defined proportional controllers and their transfer functions. We discussed the advantages and disadvantages of proportional controllers.
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process Dynamics and Control (4th ed.). Wiley.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:
+```
