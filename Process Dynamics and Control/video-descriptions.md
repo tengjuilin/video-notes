@@ -1,6 +1,8 @@
 # Process Dynamics and Control Video Descriptions
 
 - [Process Dynamics and Control Video Descriptions](#process-dynamics-and-control-video-descriptions)
+  - [Intro to Process Dynamics and Control](#intro-to-process-dynamics-and-control)
+    - [Introduction to Process Dynamics and Control [Process Dynamics and Control]](#introduction-to-process-dynamics-and-control-process-dynamics-and-control)
   - [Laplace transform](#laplace-transform)
     - [Definition and Linearity of Laplace Transform [Process Dynamics and Control]](#definition-and-linearity-of-laplace-transform-process-dynamics-and-control)
     - [Inverse Laplace Transform and Partial Fraction Decomposition [Process Dynamics and Control]](#inverse-laplace-transform-and-partial-fraction-decomposition-process-dynamics-and-control)
@@ -22,6 +24,10 @@
     - [Responses of First-Order Processes [Process Dynamics and Control]](#responses-of-first-order-processes-process-dynamics-and-control)
   - [Second-Order Processes](#second-order-processes)
     - [Responses of Second-Order Processes [Process Dynamics and Control]](#responses-of-second-order-processes-process-dynamics-and-control)
+
+## Intro to Process Dynamics and Control
+
+### Introduction to Process Dynamics and Control [Process Dynamics and Control]
 
 ## Laplace transform
 
