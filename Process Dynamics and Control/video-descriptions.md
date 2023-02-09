@@ -2,39 +2,39 @@
 
 - [Process Dynamics and Control Video Descriptions](#process-dynamics-and-control-video-descriptions)
   - [Intro to Process Dynamics and Control](#intro-to-process-dynamics-and-control)
-    - [Introduction to Process Dynamics and Control](#introduction-to-process-dynamics-and-control)
+    - [Introduction to Process Dynamics and Control [Planning]](#introduction-to-process-dynamics-and-control-planning)
   - [Laplace transform](#laplace-transform)
     - [Definition and Linearity of Laplace Transform](#definition-and-linearity-of-laplace-transform)
     - [Inverse Laplace Transform and Partial Fraction Decomposition](#inverse-laplace-transform-and-partial-fraction-decomposition)
     - [Laplace Transform of Derivatives and Initial and Final Value Theorem](#laplace-transform-of-derivatives-and-initial-and-final-value-theorem)
     - [Laplace Transform of Integrals](#laplace-transform-of-integrals)
-    - [Translation Theorems of Laplace Transform](#translation-theorems-of-laplace-transform)
-    - [Laplace Transforms of Special Input Functions](#laplace-transforms-of-special-input-functions)
+    - [Translation Theorems of Laplace Transform [Planning]](#translation-theorems-of-laplace-transform-planning)
+    - [Laplace Transforms of Special Input Functions [Planning]](#laplace-transforms-of-special-input-functions-planning)
     - [Solving ODEs with Laplace Transforms](#solving-odes-with-laplace-transforms)
   - [Transfer functions](#transfer-functions)
     - [Motivating Transfer Functions](#motivating-transfer-functions)
     - [Transfer Functions of Multivariable ODEs and Linearity](#transfer-functions-of-multivariable-odes-and-linearity)
     - [Transfer Functions Predicts Output Changes](#transfer-functions-predicts-output-changes)
     - [Steady-State Gain](#steady-state-gain)
-    - [Addition Property of Transfer Functions](#addition-property-of-transfer-functions)
-    - [Multiplicative Property of Transfer Functions](#multiplicative-property-of-transfer-functions)
-    - [Linearization of Nonlinear Models](#linearization-of-nonlinear-models)
-  - [First-Order Processes](#first-order-processes)
-    - [Standard Process Inputs](#standard-process-inputs)
-    - [Step Responses of First-Order Processes](#step-responses-of-first-order-processes)
-    - [Ramp Responses of First-Order Processes](#ramp-responses-of-first-order-processes)
-    - [Sinusoidal Responses of First-Order Processes](#sinusoidal-responses-of-first-order-processes)
+    - [Addition Property of Transfer Functions [Planning]](#addition-property-of-transfer-functions-planning)
+    - [Multiplicative Property of Transfer Functions [Planning]](#multiplicative-property-of-transfer-functions-planning)
+    - [Linearization of Nonlinear Models [Planning]](#linearization-of-nonlinear-models-planning)
+  - [First-Order Processes [Planning]](#first-order-processes-planning)
+    - [Standard Process Inputs [Planning]](#standard-process-inputs-planning)
+    - [Step Responses of First-Order Processes [Planning]](#step-responses-of-first-order-processes-planning)
+    - [Ramp Responses of First-Order Processes [Planning]](#ramp-responses-of-first-order-processes-planning)
+    - [Sinusoidal Responses of First-Order Processes [Planning]](#sinusoidal-responses-of-first-order-processes-planning)
   - [Second-Order Processes](#second-order-processes)
-    - [Transfer Function Models of Second-Order Processes](#transfer-function-models-of-second-order-processes)
-    - [Step Responses of Second-Order Processes](#step-responses-of-second-order-processes)
-    - [Modeling Step Responses of Second-Order Processes](#modeling-step-responses-of-second-order-processes)
-    - [Sinusoidal Responses of Second-Order Processes](#sinusoidal-responses-of-second-order-processes)
+    - [Transfer Function Models of Second-Order Processes [Planning]](#transfer-function-models-of-second-order-processes-planning)
+    - [Step Responses of Second-Order Processes [Planning]](#step-responses-of-second-order-processes-planning)
+    - [Modeling Step Responses of Second-Order Processes [Planning]](#modeling-step-responses-of-second-order-processes-planning)
+    - [Sinusoidal Responses of Second-Order Processes [Planning]](#sinusoidal-responses-of-second-order-processes-planning)
   - [Feedback Controllers](#feedback-controllers)
     - [Proportional Control](#proportional-control)
 
 ## Intro to Process Dynamics and Control
 
-### Introduction to Process Dynamics and Control
+### Introduction to Process Dynamics and Control [Planning]
 
 ## Laplace transform
 
@@ -127,9 +127,9 @@ Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process D
 03:48 L of derivative and integral
 ```
 
-### Translation Theorems of Laplace Transform
+### Translation Theorems of Laplace Transform [Planning]
 
-### Laplace Transforms of Special Input Functions
+### Laplace Transforms of Special Input Functions [Planning]
 
 ### Solving ODEs with Laplace Transforms
 
@@ -235,37 +235,37 @@ Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process D
 06:08 Example: Evaluation of gain
 ```
 
-### Addition Property of Transfer Functions
+### Addition Property of Transfer Functions [Planning]
 
 Example 4.6
 
-### Multiplicative Property of Transfer Functions
+### Multiplicative Property of Transfer Functions [Planning]
 
 Example 4.7
 
-### Linearization of Nonlinear Models
+### Linearization of Nonlinear Models [Planning]
 
 Example 4.8
 
-## First-Order Processes
+## First-Order Processes [Planning]
 
-### Standard Process Inputs
+### Standard Process Inputs [Planning]
 
-### Step Responses of First-Order Processes
+### Step Responses of First-Order Processes [Planning]
 
-### Ramp Responses of First-Order Processes
+### Ramp Responses of First-Order Processes [Planning]
 
-### Sinusoidal Responses of First-Order Processes
+### Sinusoidal Responses of First-Order Processes [Planning]
 
 ## Second-Order Processes
 
-### Transfer Function Models of Second-Order Processes
+### Transfer Function Models of Second-Order Processes [Planning]
 
-### Step Responses of Second-Order Processes
+### Step Responses of Second-Order Processes [Planning]
 
-### Modeling Step Responses of Second-Order Processes
+### Modeling Step Responses of Second-Order Processes [Planning]
 
-### Sinusoidal Responses of Second-Order Processes
+### Sinusoidal Responses of Second-Order Processes [Planning]
 
 ## Feedback Controllers
 
