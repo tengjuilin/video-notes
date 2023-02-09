@@ -19,7 +19,7 @@
     - [Addition Property of Transfer Functions [Planning]](#addition-property-of-transfer-functions-planning)
     - [Multiplicative Property of Transfer Functions [Planning]](#multiplicative-property-of-transfer-functions-planning)
     - [Linearization of Nonlinear Models [Planning]](#linearization-of-nonlinear-models-planning)
-  - [First-Order Processes [Planning]](#first-order-processes-planning)
+  - [First-Order Processes](#first-order-processes)
     - [Standard Process Inputs [Planning]](#standard-process-inputs-planning)
     - [Step Responses of First-Order Processes [Planning]](#step-responses-of-first-order-processes-planning)
     - [Ramp Responses of First-Order Processes [Planning]](#ramp-responses-of-first-order-processes-planning)
@@ -31,6 +31,9 @@
     - [Sinusoidal Responses of Second-Order Processes [Planning]](#sinusoidal-responses-of-second-order-processes-planning)
   - [Feedback Controllers](#feedback-controllers)
     - [Proportional Control](#proportional-control)
+    - [Integral Control [Planning]](#integral-control-planning)
+    - [Derivative Control [Planning]](#derivative-control-planning)
+    - [Proportional-Integral-Derivative (PID) Control [Planning]](#proportional-integral-derivative-pid-control-planning)
 
 ## Intro to Process Dynamics and Control
 
@@ -247,7 +250,7 @@ Example 4.7
 
 Example 4.8
 
-## First-Order Processes [Planning]
+## First-Order Processes
 
 ### Standard Process Inputs [Planning]
 
@@ -290,3 +293,9 @@ Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process D
 21:04 Proportional band
 21:35 Advantages and disadvantages
 ```
+
+### Integral Control [Planning]
+
+### Derivative Control [Planning]
+
+### Proportional-Integral-Derivative (PID) Control [Planning]
