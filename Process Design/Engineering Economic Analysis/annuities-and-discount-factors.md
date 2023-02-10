@@ -26,7 +26,7 @@ where $i$ is the annual interest rate.
 - **Annuities** - A series of uniform value cash transactions in consecutive years
 - Hint: $n$th partial sum of geometric series: $S_n = a_1 \dfrac{1 - r^n}{1 - r}$
 
-## Discount factor converts money value between the past, present, and annuities
+## Discount factor converts money value between the present, future, and annuities
 
 - Discount factor for converting $A$ to $F$
 
