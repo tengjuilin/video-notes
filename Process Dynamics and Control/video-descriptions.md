@@ -1,5 +1,13 @@
 # Process Dynamics and Control Video Descriptions
 
+```
+Introductory course in process dynamics and control in chemical and biomolecular engineering. Emphasis is on mathematical concepts and examples.
+---------
+References
+Seborg, D. E., Edgar, T. F., Mellichamp, D. A., & Doyle, F. J. (2016). Process Dynamics and Control (4th ed.). Wiley.
+Zill, D. G. (2016). Advanced Engineering Mathematics (6th edition). Jones & Bartlett Learning.
+```
+
 - [Process Dynamics and Control Video Descriptions](#process-dynamics-and-control-video-descriptions)
   - [Intro to Process Dynamics and Control](#intro-to-process-dynamics-and-control)
     - [Introduction to Process Dynamics and Control [Planning]](#introduction-to-process-dynamics-and-control-planning)
