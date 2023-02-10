@@ -1,5 +1,12 @@
 # Process Design Video Descriptions
 
+```
+Introductory course in process design in chemical and biomolecular engineering. Emphasis is on core concepts and examples in engineering economic analysis.
+---------
+References
+Turton, R., Shaeiwitz, J., Bhattacharyya, D., & Whiting, W. (2018). Analysis, Synthesis, and Design of Chemical Processes (5th edition). Pearson.
+```
+
 - [Process Design Video Descriptions](#process-design-video-descriptions)
   - [Engineering Economic Analysis](#engineering-economic-analysis)
     - [Types of Interests](#types-of-interests)
@@ -25,7 +32,9 @@
 ### Annuities and Discount Factors
 
 ```
-We
+We defined annuities and derived discount factors that allows conversion between present, future, and annuity values.
+
+Erratum: Slide 4, expression in the parenthesis of the formula for compound interest is (1 + i), not (i + i).
 ---------
 Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
 Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
@@ -36,6 +45,29 @@ Turton, R., Shaeiwitz, J., Bhattacharyya, D., & Whiting, W. (2018). Analysis, Sy
 ---------
 %%% CHAPTERS %%%
 00:00 Intro
+00:08 Definition of annuity
+05:36 Definition of discount factor
+08:07 Deriving discount factors
+12:08 Tabulated discount factors
+13:31 Discount factors for conversion
 ```
 
 ### Calculations with Discount Factors
+
+```
+We used discount factors as conversion factors to calculate interest rates and future values with three examples.
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Turton, R., Shaeiwitz, J., Bhattacharyya, D., & Whiting, W. (2018). Analysis, Synthesis, and Design of Chemical Processes (5th edition). Pearson.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:23 Example 1
+05:21 Example 2 Approach 1
+13:35 Example 2 Approach 2
+17:47 Example 3
+```
