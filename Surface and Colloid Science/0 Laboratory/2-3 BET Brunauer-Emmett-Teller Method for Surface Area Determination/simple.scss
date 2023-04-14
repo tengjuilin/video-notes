@@ -1,0 +1,169 @@
+/* @theme simple */
+
+@import '~highlight.js/styles/github-gist';
+
+section {
+    width: 1280px; /* 960px for 4:3; 1280px for wide */
+    height: 720px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    padding: 0 40px;
+    background-color: white;
+}
+
+h1, h2 {
+    font-size: 30px;
+    color: black;
+    padding-bottom: 15px;
+    border-bottom: 4px solid lightgray;
+}
+
+p, li {
+  line-height: 1.3;
+}
+
+a {
+  color: darkgray;
+
+}
+
+/* Page number */
+section::after {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  font-size: 15px;
+  color: gray;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  left: 40px;
+  bottom: 20px;
+  font-size: 15px;
+  color: gray;
+}
+
+/* Reference */
+section.ref p {
+  position: fixed;
+  bottom: 20px;
+  font-size: 20px;
+  color: gray;
+}
+
+/* Tables */
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px 15px;
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+/* Code Blocks */
+code {
+  font-family: Consolas, 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+
+/* Cover Setting*/
+section.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+section.cover h1 {
+  font-size: 50px;
+  border: none;
+}
+
+section.cover p {
+  line-height: 1.3;
+}
+
+section.cover footer, section.cover::after {
+  display: none;
+}
+
+.katex {
+  font-size: 26px;
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+img[alt~="right"] {
+  float: right;
+  display: inline;
+}
+
+blockquote {
+  font-style: normal;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  bottom: 20px;
+  font-size: 20px;
+  color: gray;
+  border: none;
+}
+
+section a[href='group'] {
+  display: flex;
+  justify-content: center;
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Two Columns Setting*/
+section.twocol > ul,
+section.sixty > ul,
+section.seventy > ul,
+section.eighty > ul {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+section.twocol > ul {
+  max-width: 45%;
+}
+
+section.sixty > ul {
+  max-width: 60%;
+}
+
+section.seventy > ul {
+  max-width: 70%;
+}
+
+section.eighty > ul {
+  max-width: 80%;
+}
+
+section.twocol > p:has(img),
+section.sixty > p:has(img),
+section.seventy > p:has(img),
+section.eighty > p:has(img) {
+  float: right;
+  margin: 0;
+}
+
+section li:has(span[class="katex"]):not(li:has(ul)),
+section.twocol li:has(span[class="katex"]):not(li:has(ul)),
+section.sixty li:has(span[class="katex"]):not(li:has(ul)),
+section.seventy li:has(span[class="katex"]):not(li:has(ul)),
+section.eighty li:has(span[class="katex"]):not(li:has(ul)) {
+  margin: 10px 0;
+  list-style-type: none;
+}
