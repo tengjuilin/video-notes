@@ -22,9 +22,9 @@ If you like this resource, feel free to [star](https://github.com/tengjuilin/vid
 
 ### Surface and Colloid Science
 
-- [<img src="https://simpleicons.org/icons/youtube.svg" width=20 alt="youtube">](https://www.youtube.com/playlist?list=PLtDRUga2Hhfa011Wk9wRXlOUhHGArBlFF) [<img src="https://simpleicons.org/icons/bilibili.svg" width=20 alt="bilibili">](https://space.bilibili.com/301350381/channel/seriesdetail?sid=3144484) Surface and Colloid Science
-  - [<img src="https://simpleicons.org/icons/github.svg" width=20 alt="github">](Surface%20and%20Colloid%20Science/Laboratory) Laboratory
-  - [<img src="https://simpleicons.org/icons/github.svg" width=20 alt="github">](Surface%20and%20Colloid%20Science/Fluid%20Interfaces%20and%20Capillarity) Fluid Interfaces and Capillarity
+- Surface and Colloid Science
+  - [<img src="https://simpleicons.org/icons/youtube.svg" width=20 alt="youtube">](https://www.youtube.com/playlist?list=PLtDRUga2Hhfa011Wk9wRXlOUhHGArBlFF) [<img src="https://simpleicons.org/icons/bilibili.svg" width=20 alt="bilibili">](https://space.bilibili.com/301350381/channel/seriesdetail?sid=3144484) [<img src="https://simpleicons.org/icons/github.svg" width=20 alt="github">](https://github.com/tengjuilin/video-notes/tree/main/Surface%20and%20Colloid%20Science/0%20Laboratory) Laboratory
+  - [<img src="https://simpleicons.org/icons/github.svg" width=20 alt="github">](https://github.com/tengjuilin/video-notes/tree/main/Surface%20and%20Colloid%20Science/1%20Fluid%20Interfaces%20and%20Capillarity) Fluid Interfaces and Capillarity
 
 ### Process Dynamics and Control
 
