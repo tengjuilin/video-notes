@@ -67,7 +67,7 @@ Department of Chemical Engineering, University of Washington
   - $r_W$ - Wicking equivalent radius, effective cylindrical pore radius for Washburn analysis
     - One order of magnitude smaller than actual pore radius
     - Tortuosity correction - replace $x$ as $\tau x$
-      - $x = \sqrt{\dfrac{r_W \sigma\cos\theta}{2\tau\mu} t} = \sqrt{\dfrac{r_W \sigma\cos\theta}{2\mu} t} \implies r_W = \dfrac{r}{\tau}$
+      - $x = \sqrt{\dfrac{r \sigma\cos\theta}{2\tau\mu} t} = \sqrt{\dfrac{r_W \sigma\cos\theta}{2\mu} t} \implies r_W = \dfrac{r}{\tau}$
 - Gravity effect negligible due to small pore radius
 
 ## Experimental setup
