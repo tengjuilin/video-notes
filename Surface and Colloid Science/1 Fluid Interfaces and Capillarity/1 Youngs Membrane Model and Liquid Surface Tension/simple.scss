@@ -126,6 +126,7 @@ img[alt~="center"] {
 }
 
 /* Two Columns Setting*/
+img,
 section.twocol > ul,
 section.sixty > ul,
 section.seventy > ul,
@@ -159,10 +160,22 @@ section.eighty > p:has(img) {
   margin: 0;
 }
 
+section li:has(span[class="katex"]):not(li:has(ul)),
 section.twocol li:has(span[class="katex"]):not(li:has(ul)),
 section.sixty li:has(span[class="katex"]):not(li:has(ul)),
 section.seventy li:has(span[class="katex"]):not(li:has(ul)),
 section.eighty li:has(span[class="katex"]):not(li:has(ul)) {
   margin: 10px 0;
-  list-style-type: none;
+}
+
+/* References */
+blockquote {
+  font-style: normal;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  bottom: 20px;
+  font-size: 14px;
+  color: gray;
+  border: none;
 }

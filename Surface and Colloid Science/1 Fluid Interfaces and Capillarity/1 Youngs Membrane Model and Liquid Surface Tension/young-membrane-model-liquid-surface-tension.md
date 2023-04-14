@@ -13,7 +13,11 @@ Teng-Jui Lin
 Department of Chemical Engineering, University of Washington
 **Surface and Colloid Science**
 
-## Thinness of interfaces
+## Thinness of interfaces: observations and theoretical calculations of density
+
+![height:300px](interfacial-layer.jpg)![height:350px](density-at-interface.png)
+
+> Hill, T. L., *J. Chem. Phys.*, **20**, 141 (1952)
 
 ## Mechanical definition of surface tension
 
@@ -42,26 +46,24 @@ $$
 ## Temperature dependence of surface tension $\sigma(T)$: linear decrease
 <!-- _class: twocol -->
 - At modest $T$, linear decrease
-  - $$\boxed{\dfrac{d\sigma}{dT} = -0.1 \ \mathrm{mN/m \cdot K}}$$
+  - $\boxed{\dfrac{d\sigma}{dT} = -0.1 \ \mathrm{mN/m \cdot K}}$
 - Empirical linear relation
-  - $$\boxed{\sigma = a - bT}$$
+  - $\boxed{\sigma = a - bT}$
 
 ![height:550px](liquid-surface-tension-t-dep.png)
 
 ## Temperature dependence of surface tension $\sigma(T)$: semi-empirical relations
 
 - **Eotvos law**
+  - $\boxed{\sigma v^{2/3} = k_E (T_c - T)}$
   - $k_E \approx 2.5 \ \mathrm{erg/K} = 0.25 \ \mathrm{mJ/K}$
 
-$$\boxed{\sigma v^{2/3} = k_E (T_c - T)}$$
-
 - **Guggenheim law**
-  - Apolar liquids
+  - $\boxed{\sigma = \sigma^* \left(1 - \dfrac{T}{T_c}\right)^{11/9}}$
   - $\sigma^* = \dfrac{4.4 T_c}{v_c^{2/3}} \in [4.3, 4.5] \ \mathrm{dyne/cm}$
+  - Apolar liquids
 
-$$\boxed{\sigma = \sigma^* \left(1 - \dfrac{T}{T_c}\right)^{11/9}}$$
-
-## Surface tension of solutions
+## Composition dependence of surface tension: solutions
 <!-- _class: twocol -->
 - $\sigma$ of solution is mostly intermediate to $\sigma$ of pure component
   - Extremum can exist due to complex formation
