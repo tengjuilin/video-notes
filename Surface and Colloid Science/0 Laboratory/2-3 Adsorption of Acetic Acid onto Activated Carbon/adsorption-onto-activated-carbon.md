@@ -19,7 +19,7 @@ Department of Chemical Engineering, University of Washington
   - **Adsorbate** - solute
   - **Adsorbent** - solid
 - **Chemisorption** - interaction by chemical bonding
-- **Physical adsorption** - interaction by can der Waals force
+- **Physical adsorption** - interaction by intermolecular forces (e.g. van der Waals forces)
 
 ![height:300px center](carbon-pallets.jpg)
 
@@ -28,10 +28,8 @@ Department of Chemical Engineering, University of Washington
 - Acetic acid equivalence point has pH = 8.7 (Why?)
 - Phenolphthalein turns from colorless to pink at pH = 8.2 ~ 10.0
 - Calculating acid concentration at equivalence point
-  - $\text{mol acid = mol base}$
-  - $C_a V_a = C_b V_b$
-  - $\boxed{C_a = \dfrac{C_bV_b}{V_a}}$
-- Determine volume of base needed to reach equivalence point
+  - $\begin{aligned}\text{mol acid} &= \text{mol base} \\ C_a V_a &= C_b V_b \\ C_a &= \dfrac{C_bV_b}{V_a}\end{aligned}$
+- Estimate maximum volume of base needed to reach equivalence point
   - $V_b = \dfrac{C_aV_a}{C_b}$
 
 ![height:500px](titration-setup.png) ![height:550px](titration-curve.png)
