@@ -8,15 +8,16 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
 ```
 
 - [Surface and Colloid Science Video Descriptions](#surface-and-colloid-science-video-descriptions)
-  - [Fluid Interfaces and Capillarity](#fluid-interfaces-and-capillarity)
-    - [Drop Weight Method - Surface Tension Measurement and Adsorption Isotherm Determination](#drop-weight-method---surface-tension-measurement-and-adsorption-isotherm-determination)
-    - [Inverted Drop Weight Method - Interfacial Tension and Adsorption Isotherm](#inverted-drop-weight-method---interfacial-tension-and-adsorption-isotherm)
-    - [Wicking Flow in Porous Media](#wicking-flow-in-porous-media)
-    - [Derivation of the Wicking Equation for Inclined Capillary](#derivation-of-the-wicking-equation-for-inclined-capillary)
+  - [Laboratory](#laboratory)
+    - [I-B: Drop Weight Method - Surface Tension Measurement and Adsorption Isotherm Determination](#i-b-drop-weight-method---surface-tension-measurement-and-adsorption-isotherm-determination)
+    - [I-C: Inverted Drop Weight Method - Interfacial Tension and Adsorption Isotherm](#i-c-inverted-drop-weight-method---interfacial-tension-and-adsorption-isotherm)
+    - [II-C: Adsorption of Acetic Acid onto Activated Carbon (Charcoal)](#ii-c-adsorption-of-acetic-acid-onto-activated-carbon-charcoal)
+    - [II-E: Wicking Flow in Porous Media](#ii-e-wicking-flow-in-porous-media)
+    - [II-E: Derivation of the Wicking Equation for Inclined Capillary](#ii-e-derivation-of-the-wicking-equation-for-inclined-capillary)
 
-## Fluid Interfaces and Capillarity
+## Laboratory
 
-### Drop Weight Method - Surface Tension Measurement and Adsorption Isotherm Determination
+### I-B: Drop Weight Method - Surface Tension Measurement and Adsorption Isotherm Determination
 
 ```
 We discussed theory of the drop weight method for measuring surface tension and determining adsorption isotherm. We identified objectives of the experiments.
@@ -42,7 +43,7 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
 27:41 Other objectives
 ```
 
-### Inverted Drop Weight Method - Interfacial Tension and Adsorption Isotherm
+### I-C: Inverted Drop Weight Method - Interfacial Tension and Adsorption Isotherm
 
 ```
 We discussed theory of the inverted drop weight method for measuring interfacial tension and determining adsorption isotherm. We identified objectives of the experiments.
@@ -67,7 +68,32 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
 13:21 Adsorption isotherm and Gibbs adsorption equation
 ```
 
-### Wicking Flow in Porous Media
+### II-C: Adsorption of Acetic Acid onto Activated Carbon (Charcoal)
+
+```
+We defined adsorption and discussed experimental setup for determining acetic acid supernatant concentration by titration. We discussed Langmuir and Freundlich isotherms' assumptions, key equations, and key plots for experimental data fitting.
+---------
+Course: CHEM E 455 Surface and Colloid Science Laboratory (Spring 2023)
+Course Instructor: Dr. John C. Berg, University of Washington
+Video Instructor: Teng-Jui Lin, undergraduate teaching assistant
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To Nanoscience (Illustrated edition). WSPC.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:15 Definition of adsorption
+03:28 Titration for acetic acid concentration
+07:52 Langmuir isotherm
+16:43 Specific area by Langmuir isotherm
+18:58 Freundlich isotherm
+```
+
+### II-E: Wicking Flow in Porous Media
 
 ```
 We derived the Washburn equation for horizontal capillary and wicking equation for inclined capillary that describes wicking flow. We generalized the Washburn analysis to porous media to describe wicking. We identified objectives and expected results of the experiments.
@@ -93,7 +119,7 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
 17:08 Experimental setup
 ```
 
-### Derivation of the Wicking Equation for Inclined Capillary
+### II-E: Derivation of the Wicking Equation for Inclined Capillary
 
 ```
 We derived the wicking equation for inclined capillary. We showed if the system is far from equilibrium, wicking equation for inclined capillary reduces to the Washburn equation for horizontal capillary.
