@@ -71,7 +71,7 @@ Department of Chemical Engineering, University of Washington
   - Flush gas syringe with evaporated nitrogen gas above the liquid nitrogen at DEGAS
   - Fill the gas syringe with 1 mL nitrogen gas
   - Wipe needle tip free of frost, set aside needle to equilibrate to room temperature
-  - Zero the instrument display, switch to surface area (SA), and clear SA display
+  - Zero the instrument display with course and fine zeros. Switch to surface area (SA), and clear SA display
   - Insert needle at INJECT, inject nitrogen gas at moderate rate, and withdraw
   - Wait until reading is stabilized, then calibrate the instrument to **SA = 2.84**
     - Confirm calibration by repeated injection, if necessary
