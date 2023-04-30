@@ -54,3 +54,5 @@ Department of Chemical Engineering, University of Washington
 - Calibrate conductivity meter
 - Wait 2 min for the *system* to equilibrate before recording the conductivity measurement
   - The equipment reading may have stabilized, but the system might not have reached equilibrium
+
+![height:400px center](conductivity-probe.png)

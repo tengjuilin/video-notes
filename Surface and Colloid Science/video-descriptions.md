@@ -14,6 +14,8 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
     - [II-C: Adsorption of Acetic Acid onto Activated Carbon (Charcoal)](#ii-c-adsorption-of-acetic-acid-onto-activated-carbon-charcoal)
     - [II-E: Wicking Flow in Porous Media](#ii-e-wicking-flow-in-porous-media)
     - [II-E: Derivation of the Wicking Equation for Inclined Capillary](#ii-e-derivation-of-the-wicking-equation-for-inclined-capillary)
+    - [III-A Determination of Critical Micelle Concentration (CMC) by Dye Titration](#iii-a-determination-of-critical-micelle-concentration-cmc-by-dye-titration)
+    - [III-B Determination of Critical Micelle Concentration (CMC) by Conductivity](#iii-b-determination-of-critical-micelle-concentration-cmc-by-conductivity)
 
 ## Laboratory
 
@@ -138,4 +140,52 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
 %%% CHAPTERS %%%
 00:00 Derivation of wicking equation for inclined capillary
 07:23 Reducing wicking equation to Washburn equation
+```
+
+### III-A Determination of Critical Micelle Concentration (CMC) by Dye Titration
+
+```
+We explored the nature of micelle formation and physical property changes at the critical micelle concentration (CMC). We discussed measurement of CMC using dye titration and correlating CMC with counterion concentration.
+---------
+Course: CHEM E 455 Surface and Colloid Science Laboratory (Spring 2023)
+Course Instructor: Dr. John C. Berg, University of Washington
+Video Instructor: Teng-Jui Lin, undergraduate teaching assistant
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To Nanoscience (Illustrated edition). WSPC.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:12 Micelle formation and physical properties
+03:42 Dye absorbance changes at CMC
+06:08 CMC dependence on [counterion]
+```
+
+### III-B Determination of Critical Micelle Concentration (CMC) by Conductivity
+
+```
+We explored the nature of micelle formation and physical property changes at the critical micelle concentration (CMC). We discussed measurement of CMC using conductivity and correlating CMC with alkyl chain length described by the Klevens equation.
+---------
+Course: CHEM E 455 Surface and Colloid Science Laboratory (Spring 2023)
+Course Instructor: Dr. John C. Berg, University of Washington
+Video Instructor: Teng-Jui Lin, undergraduate teaching assistant
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To Nanoscience (Illustrated edition). WSPC.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:11 Micelle formation and physical properties
+04:00 Conductivity changes at CMC
+06:08 Klevens equation: CMC dependence on alkyl chain length
+09:01 Surfactants of interest
+09:32 Experimental procedure
 ```
