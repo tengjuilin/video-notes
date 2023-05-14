@@ -16,6 +16,7 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
     - [II-E: Derivation of the Wicking Equation for Inclined Capillary](#ii-e-derivation-of-the-wicking-equation-for-inclined-capillary)
     - [III-A Determination of Critical Micelle Concentration (CMC) by Dye Titration](#iii-a-determination-of-critical-micelle-concentration-cmc-by-dye-titration)
     - [III-B Determination of Critical Micelle Concentration (CMC) by Conductivity](#iii-b-determination-of-critical-micelle-concentration-cmc-by-conductivity)
+    - [IV-E Breakup of Capillary Jet](#iv-e-breakup-of-capillary-jet)
 
 ## Laboratory
 
@@ -188,4 +189,29 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
 06:08 Klevens equation: CMC dependence on alkyl chain length
 09:01 Surfactants of interest
 09:32 Experimental procedure
+```
+
+### IV-E Breakup of Capillary Jet
+
+```
+We discussed the breakup of capillary jet and the relationship between jet length and jet velocity. We discussed Rayleigh and Weber's analysis to analyze jet breakup that can be determined by experiments.
+---------
+Course: CHEM E 455 Surface and Colloid Science Laboratory (Spring 2023)
+Course Instructor: Dr. John C. Berg, University of Washington
+Video Instructor: Teng-Jui Lin, undergraduate teaching assistant
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To Nanoscience (Illustrated edition). WSPC.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:14 Capillary jet formation
+01:54 Jet length and velocity
+03:59 Rayleigh analysis
+09:03 Weber's analysis
+11:35 Experimental setup
 ```
