@@ -69,7 +69,6 @@ Department of Chemical Engineering, University of Washington
   - Drop size
     - $\boxed{V = 28.3 a^3}$
 
-
 ## Weber analysis relaxes some assumptions for Rayleigh analysis
 <!-- _class: twocol -->
 - Weber's number
@@ -101,5 +100,12 @@ Department of Chemical Engineering, University of Washington
     - $\boxed{L = 8.33 \ln\left(\dfrac{a}{\eta_0}\right) U \left(\dfrac{\rho a^3}{\sigma}\right)^{1/2}}$
   - Drop size
     - $\boxed{V = 28.3 a^3}$
+- Measurement by image analysis
+  - $L$ - Jet length
+  - $r$ - Drop radius $\Rightarrow V$ - Drop size
+  - $\lambda$ - Breakup wavelength
+  - $a$ - Undisturbed jet radius
+- Measurement by bucket and stopwatch
+  - $\dot{V}$ - Volumetric flow rate $\Rightarrow U$ - Jet velocity
 
-![height:700px center](experiment-setup.png)
+![height:550px center](experiment-setup.png)
