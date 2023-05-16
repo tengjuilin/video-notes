@@ -33,17 +33,17 @@ Department of Chemical Engineering, University of Washington
 ![width:600px center](electrokinetic-phenomena.jpg)
 
 - **Electro-osmosis** - diffuse layer of ions beside a charged immobile surface move under *E* field, which sets the liquid into motion by the action of viscosity
-  - Ions drag *liquid* to move, *solid* at rest
+  - *Liquid* moves, *solid* at rest
 
 <br/>&nbsp;
 
 - **Electrophoresis** - diffuse layer of ions beside a charged particle surface move under *E* field, which sets the particle into motion
-  - Ions drag *solid* to move, *liquid* at rest
+  - *Solid* moves, *liquid* at rest
 
 ## Electrophoretic mobility allows determination of zeta potential
 
 - **Electrophoretic mobility** - $u_E [\mathrm{(µm/s)/(V/cm)}]$
-  - $u_E = \dfrac{V_p}{E_x} = \begin{cases}\dfrac{\varepsilon\varepsilon_0 \zeta}{\mu} & (\kappa a > 200) \\ \dfrac{2}{3}\dfrac{\varepsilon\varepsilon_0 \zeta}{\mu} & (\kappa a <0.01) \end{cases}$
+  - $u_E = \dfrac{V_p}{E_x} = \begin{cases}\dfrac{\varepsilon\varepsilon_0 \zeta}{\mu} & (\kappa a > 200) \\ \dfrac{2}{3}\dfrac{\varepsilon\varepsilon_0 \zeta}{\mu} & (\kappa a <0.1) \end{cases}$
 
 >- $u_E$ - Electrophoretic mobility
 >- $V_p$ - Particle velocity
@@ -73,7 +73,7 @@ Department of Chemical Engineering, University of Washington
 
 - $u_E = \dfrac{V_p}{E_x} = \dfrac{\varepsilon\varepsilon_0 \zeta}{\mu} \quad\quad (\kappa a > 200)$
   - $\boxed{\zeta = \dfrac{\mu V_p}{\varepsilon\varepsilon_0 E_x}}$
-- Electrophoresis has ions drag solid particles when liquid is at rest ($v_x = 0$)
+- Electrophoresis has solid particles moving when liquid is at rest ($v_x = 0$)
 <br/>![width:500px center](velocity-profile.png)<br/>
   - $v_x = 0$ when $y = \begin{cases} 0.205w \\ 0.795w \end{cases}$
 
