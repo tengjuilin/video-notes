@@ -16,6 +16,7 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
     - [II-E: Derivation of the Wicking Equation for Inclined Capillary](#ii-e-derivation-of-the-wicking-equation-for-inclined-capillary)
     - [III-A Determination of Critical Micelle Concentration (CMC) by Dye Titration](#iii-a-determination-of-critical-micelle-concentration-cmc-by-dye-titration)
     - [III-B Determination of Critical Micelle Concentration (CMC) by Conductivity](#iii-b-determination-of-critical-micelle-concentration-cmc-by-conductivity)
+    - [IV-C Determination of Zeta Potential by Microelectrophoresis](#iv-c-determination-of-zeta-potential-by-microelectrophoresis)
     - [IV-E Breakup of Capillary Jet](#iv-e-breakup-of-capillary-jet)
 
 ## Laboratory
@@ -189,6 +190,32 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
 06:08 Klevens equation: CMC dependence on alkyl chain length
 09:01 Surfactants of interest
 09:32 Experimental procedure
+```
+
+### IV-C Determination of Zeta Potential by Microelectrophoresis
+
+```
+We discussed the theory of the electric double layer at a charged surface, electrokinetic phenomena, and electrophoretic mobility. We also discussed the experimental setup for measuring zeta potential with darkfield illumination microscopy and laser Doppler electrophoresis.
+---------
+Course: CHEM E 455 Surface and Colloid Science Laboratory (Spring 2023)
+Course Instructor: Dr. John C. Berg, University of Washington
+Video Instructor: Teng-Jui Lin, undergraduate teaching assistant
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To Nanoscience (Illustrated edition). WSPC.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:11 Electric double layer
+04:26 Electrokinetic processes
+05:59 Electrophoretic mobility
+08:34 pH at zero potentials
+10:18 Darkfield illumination microscopy
+13:54 Laser Doppler electrophoresis
 ```
 
 ### IV-E Breakup of Capillary Jet
