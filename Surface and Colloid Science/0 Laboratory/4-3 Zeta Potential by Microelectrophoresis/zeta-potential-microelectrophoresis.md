@@ -52,7 +52,7 @@ Department of Chemical Engineering, University of Washington
 >- $\varepsilon_0$ - Permittivity of free space
 >- $\zeta$ - Zeta potential
 >- $\mu$ - Viscosity of the medium
->- $\kappa$ - Debye length
+>- $\kappa^{-1}$ - Debye length
 >- $a$ - Particle radius
 
 ## Point of zero charge and isoelectric point define pH at which potentials are zero
