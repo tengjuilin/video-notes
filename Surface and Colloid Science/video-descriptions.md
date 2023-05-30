@@ -9,8 +9,10 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
 
 - [Surface and Colloid Science Video Descriptions](#surface-and-colloid-science-video-descriptions)
   - [Laboratory](#laboratory)
+    - [I-A: Detachment and Partial Immersion Method for Surface Tension](#i-a-detachment-and-partial-immersion-method-for-surface-tension)
     - [I-B: Drop Weight Method - Surface Tension Measurement and Adsorption Isotherm Determination](#i-b-drop-weight-method---surface-tension-measurement-and-adsorption-isotherm-determination)
     - [I-C: Inverted Drop Weight Method - Interfacial Tension and Adsorption Isotherm](#i-c-inverted-drop-weight-method---interfacial-tension-and-adsorption-isotherm)
+    - [II-B: Determining Contact Angles by Wilhelmy Method and Critical Surface Tension by Zisman Plot](#ii-b-determining-contact-angles-by-wilhelmy-method-and-critical-surface-tension-by-zisman-plot)
     - [II-C: Adsorption of Acetic Acid onto Activated Carbon (Charcoal)](#ii-c-adsorption-of-acetic-acid-onto-activated-carbon-charcoal)
     - [II-E: Wicking Flow in Porous Media](#ii-e-wicking-flow-in-porous-media)
     - [II-E: Derivation of the Wicking Equation for Inclined Capillary](#ii-e-derivation-of-the-wicking-equation-for-inclined-capillary)
@@ -20,6 +22,30 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
     - [IV-E Breakup of Capillary Jet](#iv-e-breakup-of-capillary-jet)
 
 ## Laboratory
+
+### I-A: Detachment and Partial Immersion Method for Surface Tension
+
+```
+We discussed theory of the detachment method using du Noüy rings and partial immersion method using Wilhelmy slides to measure surface tension and determining adsorption isotherm.
+---------
+Course: CHEM E 455 Surface and Colloid Science Laboratory (Spring 2023)
+Course Instructor: Dr. John C. Berg, University of Washington
+Video Instructor: Teng-Jui Lin, undergraduate teaching assistant
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To Nanoscience (Illustrated edition). WSPC.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:12 Surface tension by force methods
+01:54 Detachment method by du Noüy rings
+04:09 Partial immersion method by Wilhelmy slides
+05:35 Tensiometer for downward force
+```
 
 ### I-B: Drop Weight Method - Surface Tension Measurement and Adsorption Isotherm Determination
 
@@ -70,6 +96,31 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
 08:10 Experimental setup
 08:39 Szyszkowski equation
 13:21 Adsorption isotherm and Gibbs adsorption equation
+```
+
+### II-B: Determining Contact Angles by Wilhelmy Method and Critical Surface Tension by Zisman Plot
+
+```
+We discussed the theory of Wilhelmy method for measuring surface tension force, which allows the calculation of perimeter, surface tension, or contact angle, if we we given two of them. We also discussed the critical surface tension of a low-energy solid, which can be determined using the Zisman plot by measuring contact angle between the solid of interest and probe liquids of varying surface tensions.
+---------
+Course: CHEM E 455 Surface and Colloid Science Laboratory (Spring 2023)
+Course Instructor: Dr. John C. Berg, University of Washington
+Video Instructor: Teng-Jui Lin, undergraduate teaching assistant
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To Nanoscience (Illustrated edition). WSPC.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:12 Partial immersion method
+01:48 Contact angle measurement
+03:58 Young's equation
+08:03 Zisman plot
+11:28 Experimental objectives
 ```
 
 ### II-C: Adsorption of Acetic Acid onto Activated Carbon (Charcoal)
