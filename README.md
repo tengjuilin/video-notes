@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This repository contains notes and slides that I used to create [video recordings](https://www.youtube.com/@thenanokid3791) for science and engineering concepts. Topics include surface and colloid science, process dynamics and control, and process design.
+This repository contains notes and slides that I used to create [video recordings](https://www.youtube.com/@thenanokid) for science and engineering concepts. Topics include surface and colloid science, process dynamics and control, and process design.
 
 You may also find the [equation sheets](https://github.com/tengjuilin/equation-sheets) and [course notes](https://github.com/tengjuilin/course-notes) helpful.
 
