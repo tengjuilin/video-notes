@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/github/license/tengjuilin/video-notes)](https://creativecommons.org/licenses/by/4.0/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/tengjuilin/video-notes)
+[![DOI](https://zenodo.org/badge/597586058.svg)](https://zenodo.org/badge/latestdoi/597586058)
 
 ## Introduction
 
