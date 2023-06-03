@@ -4,6 +4,7 @@ theme: simple
 paginate: true
 footer:
 ---
+<!-- Marp for VS Code v1.5.2 -->
 
 <!-- headingDivider: 2 -->
 

@@ -5,6 +5,7 @@ paginate: true
 footer:
 math: mathjax
 ---
+<!-- Marp for VS Code v2.6.0 -->
 
 <!-- headingDivider: 2 -->
 <!-- _class: cover -->

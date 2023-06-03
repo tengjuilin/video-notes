@@ -5,6 +5,7 @@ paginate: true
 footer:
 math: katex
 ---
+<!-- Marp for VS Code v1.5.2 -->
 
 <!-- headingDivider: 2 -->
 <!-- _class: cover -->
