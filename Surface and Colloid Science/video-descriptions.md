@@ -9,6 +9,7 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
 
 - [Surface and Colloid Science Video Descriptions](#surface-and-colloid-science-video-descriptions)
   - [Laboratory](#laboratory)
+    - [Equipment: Microplate Reader for Absorbance Measurement](#equipment-microplate-reader-for-absorbance-measurement)
     - [I-A: Detachment and Partial Immersion Method for Surface Tension](#i-a-detachment-and-partial-immersion-method-for-surface-tension)
     - [I-B: Drop Weight Method - Surface Tension Measurement and Adsorption Isotherm Determination](#i-b-drop-weight-method---surface-tension-measurement-and-adsorption-isotherm-determination)
     - [I-C: Inverted Drop Weight Method - Interfacial Tension and Adsorption Isotherm](#i-c-inverted-drop-weight-method---interfacial-tension-and-adsorption-isotherm)
@@ -22,6 +23,33 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
     - [IV-E Breakup of Capillary Jet](#iv-e-breakup-of-capillary-jet)
 
 ## Laboratory
+
+### Equipment: Microplate Reader for Absorbance Measurement
+
+```
+We discussed theory and practical aspects of using a microplate reader to measure absorbance of solutions.
+---------
+Course: CHEM E 455 Surface and Colloid Science Laboratory (Spring 2023)
+Course Instructor: Dr. John C. Berg, University of Washington
+Video Instructor: Teng-Jui Lin, undergraduate teaching assistant
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Jones, F. E., & Harris, G. L. (1992). ITS-90 Density of Water Formulation for Volumetric Standards Calibration. Journal of Research of the National Institute of Standards and Technology, 97(3), 335–340. https://doi.org/10.6028/jres.097.013
+Koretsky, M. D. (2012). Engineering and Chemical Thermodynamics (2nd edition). Wiley.
+McVay, C. W. (1989). Determination of Density with the Paar Digital Density Meter. https://www.nrc.gov/docs/ML0329/ML032960458.pdf
+Richard Shelquist. (2023). Equations—Air Density and Density Altitude. https://wahiduddin.net/calc/density_altitude.htm
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:09 Beer-Lambert Law
+04:40 96-well plate
+08:17 Microplate reader protocol
+13:34 Applications
+```
 
 ### I-A: Detachment and Partial Immersion Method for Surface Tension
 
