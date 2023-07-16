@@ -37,12 +37,6 @@ Video notes and slides available on GitHub: https://github.com/tengjuilin/video-
 Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
 Course notes available on GitHub: https://github.com/tengjuilin/course-notes
 ---------
-References:
-Jones, F. E., & Harris, G. L. (1992). ITS-90 Density of Water Formulation for Volumetric Standards Calibration. Journal of Research of the National Institute of Standards and Technology, 97(3), 335–340. https://doi.org/10.6028/jres.097.013
-Koretsky, M. D. (2012). Engineering and Chemical Thermodynamics (2nd edition). Wiley.
-McVay, C. W. (1989). Determination of Density with the Paar Digital Density Meter. https://www.nrc.gov/docs/ML0329/ML032960458.pdf
-Richard Shelquist. (2023). Equations—Air Density and Density Altitude. https://wahiduddin.net/calc/density_altitude.htm
----------
 %%% CHAPTERS %%%
 00:00 Intro
 00:09 Beer-Lambert Law
