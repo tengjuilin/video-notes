@@ -10,6 +10,7 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
 - [Surface and Colloid Science Video Descriptions](#surface-and-colloid-science-video-descriptions)
   - [Laboratory](#laboratory)
     - [Equipment: Microplate Reader for Absorbance Measurement](#equipment-microplate-reader-for-absorbance-measurement)
+    - [Equipment: Inverted Microscope](#equipment-inverted-microscope)
     - [I-A: Detachment and Partial Immersion Method for Surface Tension](#i-a-detachment-and-partial-immersion-method-for-surface-tension)
     - [I-B: Drop Weight Method - Surface Tension Measurement and Adsorption Isotherm Determination](#i-b-drop-weight-method---surface-tension-measurement-and-adsorption-isotherm-determination)
     - [I-C: Inverted Drop Weight Method - Interfacial Tension and Adsorption Isotherm](#i-c-inverted-drop-weight-method---interfacial-tension-and-adsorption-isotherm)
@@ -43,6 +44,30 @@ Course notes available on GitHub: https://github.com/tengjuilin/course-notes
 04:40 96-well plate
 08:17 Microplate reader protocol
 13:34 Applications
+```
+
+### Equipment: Inverted Microscope
+
+```
+We discussed practical aspects of using an inverted microscope to took at the structure of filter papers and emulsions.
+---------
+Course: CHEM E 455 Surface and Colloid Science Laboratory (Spring 2023)
+Course Instructor: Dr. John C. Berg, University of Washington
+Video Instructor: Teng-Jui Lin, undergraduate teaching assistant
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:10 Setup
+01:50 Startup
+02:19 Basic operations
+03:33 Calibration
+06:33 Shutdown
+06:47 Porous structures
+07:21 Emulsions
 ```
 
 ### I-A: Detachment and Partial Immersion Method for Surface Tension

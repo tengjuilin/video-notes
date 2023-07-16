@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Olympus IX70 Inverted Microscope</title>
+        <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+/* From extension ExecutableBookProject.myst-highlight */
+:root{--color-foreground-primary: black;--color-foreground-secondary: #5a5c63;--color-foreground-border: #878787;--color-background-primary: white;--color-background-secondary: #f8f9fb;--color-background-border: #eeebee;--icon-search: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="10" cy="10" r="7" /><line x1="21" y1="21" x2="15" y2="15" /></svg>');--icon-pencil: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>');--icon-abstract: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 5h16v2H4V5m0 4h16v2H4V9m0 4h16v2H4v-2m0 4h10v2H4v-2z"/></svg>');--icon-info: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h-2V7h2m0 10h-2v-6h2m-1-9A10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10A10 10 0 0012 2z"/></svg>');--icon-flame: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.55 11.2c-.23-.3-.5-.56-.76-.82-.65-.6-1.4-1.03-2.03-1.66C13.3 7.26 13 4.85 13.91 3c-.91.23-1.75.75-2.45 1.32-2.54 2.08-3.54 5.75-2.34 8.9.04.1.08.2.08.33 0 .22-.15.42-.35.5-.22.1-.46.04-.64-.12a.83.83 0 01-.15-.17c-1.1-1.43-1.28-3.48-.53-5.12C5.89 10 5 12.3 5.14 14.47c.04.5.1 1 .27 1.5.14.6.4 1.2.72 1.73 1.04 1.73 2.87 2.97 4.84 3.22 2.1.27 4.35-.12 5.96-1.6 1.8-1.66 2.45-4.32 1.5-6.6l-.13-.26c-.2-.46-.47-.87-.8-1.25l.05-.01m-3.1 6.3c-.28.24-.73.5-1.08.6-1.1.4-2.2-.16-2.87-.82 1.19-.28 1.89-1.16 2.09-2.05.17-.8-.14-1.46-.27-2.23-.12-.74-.1-1.37.18-2.06.17.38.37.76.6 1.06.76 1 1.95 1.44 2.2 2.8.04.14.06.28.06.43.03.82-.32 1.72-.92 2.27h.01z"/></svg>');--icon-question: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.07 11.25l-.9.92C13.45 12.89 13 13.5 13 15h-2v-.5c0-1.11.45-2.11 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2 2 0 00-2-2 2 2 0 00-2 2H8a4 4 0 014-4 4 4 0 014 4 3.2 3.2 0 01-.93 2.25M13 19h-2v-2h2M12 2A10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10c0-5.53-4.5-10-10-10z"/></svg>');--icon-warning: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2v-4h2m0 8h-2v-2h2M1 21h22L12 2 1 21z"/></svg>');--icon-failure: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c5.53 0 10 4.47 10 10s-4.47 10-10 10S2 17.53 2 12 6.47 2 12 2m3.59 5L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41 15.59 7z"/></svg>');--icon-spark: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.5 20l4.86-9.73H13V4l-5 9.73h3.5V20M12 2c2.75 0 5.1 1 7.05 2.95C21 6.9 22 9.25 22 12s-1 5.1-2.95 7.05C17.1 21 14.75 22 12 22s-5.1-1-7.05-2.95C3 17.1 2 14.75 2 12s1-5.1 2.95-7.05C6.9 3 9.25 2 12 2z"/></svg>');--icon-admonition-default: var(--icon-abstract);--color-directive-unhandled-background: rgba(255, 255, 255, 0.3);--color-directive-error-background: rgba(255, 0, 0, 0.4);--admonition-font-size: 0.8125rem;--admonition-title-font-size: 0.8125rem;--icon-admonition-default: var(--icon-abstract);--color-admonition-background: rgba(255, 255, 255, 0.3);--color-admonition-title: #651fff;--color-admonition-title-background: rgba(101, 31, 255, 0.1);--color-admonition-title--caution: #ff9100;--color-admonition-title-background--caution: rgba(255, 145, 0, 0.1);--color-admonition-title--warning: #ff9100;--color-admonition-title-background--warning: rgba(255, 145, 0, 0.1);--color-admonition-title--danger: #ff5252;--color-admonition-title-background--danger: rgba(255, 82, 82, 0.1);--color-admonition-title--attention: #ff5252;--color-admonition-title-background--attention: rgba(255, 82, 82, 0.1);--color-admonition-title--error: #ff5252;--color-admonition-title-background--error: rgba(255, 82, 82, 0.1);--color-admonition-title--hint: #00c852;--color-admonition-title-background--hint: rgba(0, 200, 82, 0.1);--color-admonition-title--important: #00bfa5;--color-admonition-title-background--important: rgba(0, 191, 165, 0.1);--color-admonition-title--note: #00b0ff;--color-admonition-title-background--note: rgba(0, 176, 255, 0.1);--color-admonition-title--seealso: #448aff;--color-admonition-title-background--seealso: rgba(68, 138, 255, 0.1);--color-admonition-title--tip: #00c852;--color-admonition-title-background--tip: rgba(0, 200, 82, 0.1);--color-admonition-title--admonition-todo: #808080;--color-admonition-title-background--admonition-todo: rgba(128, 128, 128, 0.1)}@media(prefers-color-scheme: dark){:root{--color-foreground-primary: #ffffffd9;--color-foreground-secondary: #9ca0a5;--color-foreground-border: #666666;--color-background-primary: #131416;--color-background-secondary: #1a1c1e;--color-background-border: #303335;--color-directive-unhandled-background: #333338;--color-directive-error-background: rgba(180, 6, 6, 0.8);--color-admonition-background: #18181a}}.role-unhandled{outline:1px solid #d3d3d3;border-radius:.2rem;padding-left:.125rem;padding-right:.125rem}.role-unhandled mark{-webkit-text-decoration-line:underline;text-decoration-line:underline;background-color:unset;color:unset}.role-unhandled code{padding-left:.15rem}.directive-unhandled,.directive-error{margin:1rem auto;padding:.5rem;outline:.0625rem solid #d3d3d3;border-radius:.2rem;overflow:auto;color:var(--color-foreground-primary)}.directive-unhandled>:nth-child(2),.directive-error>:nth-child(2){margin-top:0}.directive-unhandled>:last-child,.directive-error>:last-child{margin-bottom:0}.directive-unhandled header,.directive-error header{margin-bottom:.5rem}.directive-unhandled mark,.directive-error mark{-webkit-text-decoration-line:underline;text-decoration-line:underline;background-color:unset;color:var(--color-foreground-primary)}.directive-unhandled{outline:.0625rem solid #d3d3d3;background-color:var(--color-directive-unhandled-background)}.directive-error{outline:.0625rem solid #f08080;background-color:var(--color-directive-error-background)}.admonition{margin:1rem auto;padding:0 .5rem .5rem .5rem;background:var(--color-admonition-background);color:var(--color-foreground-primary);border-radius:.2rem;border-left:.2rem solid var(--color-admonition-title);box-shadow:0 .2rem .5rem rgba(0,0,0,.05),0 0 .0625rem rgba(0,0,0,.1);font-size:var(--admonition-font-size);overflow:auto;page-break-inside:avoid}.admonition>:nth-child(2){margin-top:0}.admonition>:last-child{margin-bottom:0}.admonition p.admonition-title{position:relative;margin:0 -0.5rem .5rem;padding:.5rem .5rem .5rem 2rem;font-weight:500;font-size:var(--admonition-title-font-size);background-color:var(--color-admonition-title-background);line-height:1.3}.admonition p.admonition-title::before{content:"";position:absolute;left:.5rem;width:1rem;height:1rem;background-color:var(--color-admonition-title);-webkit-mask-image:var(--icon-admonition-default);mask-image:var(--icon-admonition-default);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}.admonition.caution{border-left-color:var(--color-admonition-title--caution)}.admonition.caution>.admonition-title{background-color:var(--color-admonition-title-background--caution)}.admonition.caution>.admonition-title::before{background-color:var(--color-admonition-title--caution);-webkit-mask-image:var(--icon-spark);mask-image:var(--icon-spark)}.admonition.warning{border-left-color:var(--color-admonition-title--warning)}.admonition.warning>.admonition-title{background-color:var(--color-admonition-title-background--warning)}.admonition.warning>.admonition-title::before{background-color:var(--color-admonition-title--warning);-webkit-mask-image:var(--icon-warning);mask-image:var(--icon-warning)}.admonition.danger{border-left-color:var(--color-admonition-title--danger)}.admonition.danger>.admonition-title{background-color:var(--color-admonition-title-background--danger)}.admonition.danger>.admonition-title::before{background-color:var(--color-admonition-title--danger);-webkit-mask-image:var(--icon-spark);mask-image:var(--icon-spark)}.admonition.attention{border-left-color:var(--color-admonition-title--attention)}.admonition.attention>.admonition-title{background-color:var(--color-admonition-title-background--attention)}.admonition.attention>.admonition-title::before{background-color:var(--color-admonition-title--attention);-webkit-mask-image:var(--icon-warning);mask-image:var(--icon-warning)}.admonition.error{border-left-color:var(--color-admonition-title--error)}.admonition.error>.admonition-title{background-color:var(--color-admonition-title-background--error)}.admonition.error>.admonition-title::before{background-color:var(--color-admonition-title--error);-webkit-mask-image:var(--icon-failure);mask-image:var(--icon-failure)}.admonition.hint{border-left-color:var(--color-admonition-title--hint)}.admonition.hint>.admonition-title{background-color:var(--color-admonition-title-background--hint)}.admonition.hint>.admonition-title::before{background-color:var(--color-admonition-title--hint);-webkit-mask-image:var(--icon-question);mask-image:var(--icon-question)}.admonition.important{border-left-color:var(--color-admonition-title--important)}.admonition.important>.admonition-title{background-color:var(--color-admonition-title-background--important)}.admonition.important>.admonition-title::before{background-color:var(--color-admonition-title--important);-webkit-mask-image:var(--icon-flame);mask-image:var(--icon-flame)}.admonition.note{border-left-color:var(--color-admonition-title--note)}.admonition.note>.admonition-title{background-color:var(--color-admonition-title-background--note)}.admonition.note>.admonition-title::before{background-color:var(--color-admonition-title--note);-webkit-mask-image:var(--icon-pencil);mask-image:var(--icon-pencil)}.admonition.seealso{border-left-color:var(--color-admonition-title--seealso)}.admonition.seealso>.admonition-title{background-color:var(--color-admonition-title-background--seealso)}.admonition.seealso>.admonition-title::before{background-color:var(--color-admonition-title--seealso);-webkit-mask-image:var(--icon-info);mask-image:var(--icon-info)}.admonition.tip{border-left-color:var(--color-admonition-title--tip)}.admonition.tip>.admonition-title{background-color:var(--color-admonition-title-background--tip)}.admonition.tip>.admonition-title::before{background-color:var(--color-admonition-title--tip);-webkit-mask-image:var(--icon-info);mask-image:var(--icon-info)}.admonition.admonition-todo{border-left-color:var(--color-admonition-title--admonition-todo)}.admonition.admonition-todo>.admonition-title{background-color:var(--color-admonition-title-background--admonition-todo)}.admonition.admonition-todo>.admonition-title::before{background-color:var(--color-admonition-title--admonition-todo);-webkit-mask-image:var(--icon-pencil);mask-image:var(--icon-pencil)}.admonition-todo>.admonition-title{text-transform:uppercase}img{box-sizing:border-box;max-width:100%;height:auto}img.align-left,figure.align-left{clear:left;float:left;margin-right:1em}img.align-right,figure.align-right{clear:right;float:right;margin-right:1em}img.align-center,img.align-default,figure.align-center,figure.align-default{display:block;margin-left:auto;margin-right:auto}figcaption{font-style:italic;text-align:center}table{border-radius:.2rem;border-spacing:0;border-collapse:collapse;box-shadow:0 .2rem .5rem rgba(0,0,0,.05),0 0 .0625rem rgba(0,0,0,.1)}table>caption{text-align:center;margin-bottom:.25rem}th{background:var(--color-background-secondary);color:var(--color-foreground-primary)}td,th{padding:0 .25rem;border-left:1px solid var(--color-background-border);border-right:1px solid var(--color-background-border);border-bottom:1px solid var(--color-background-border)}td p,th p{margin:.25rem}td:first-child,th:first-child{border-left:none}td:last-child,th:last-child{border-right:none}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9zdHlsZS9fdmFyaWFibGVzLnNjc3MiLCIuLi8uLi9zcmMvc3R5bGUvX3JvbGUuc2FzcyIsIi4uLy4uL3NyYy9zdHlsZS9fZGlyZWN0aXZlLnNhc3MiLCIuLi8uLi9zcmMvc3R5bGUvX2FkbW9uaXRpb24uc2FzcyIsIi4uLy4uL3NyYy9zdHlsZS9faW1hZ2Uuc2FzcyIsIi4uLy4uL3NyYy9zdHlsZS9fdGFibGVzLnNhc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBd0JBLE1BRUUsaUNBQUEsQ0FDQSxxQ0FBQSxDQUNBLGtDQUFBLENBRUEsaUNBQUEsQ0FDQSxxQ0FBQSxDQUNBLGtDQUFBLENBSUUsNFVBQUEsQ0FBQSwrUUFBQSxDQUFBLDhMQUFBLENBQUEsZ09BQUEsQ0FBQSwrd0JBQUEsQ0FBQSxzWkFBQSxDQUFBLG1MQUFBLENBQUEsb1RBQUEsQ0FBQSwyVUFBQSxDQUVGLCtDQUFBLENBR0EsZ0VBQUEsQ0FDQSx3REFBQSxDQUdBLGlDQUFBLENBQ0EsdUNBQUEsQ0FDQSwrQ0FBQSxDQUVBLHVEQUFBLENBQ0EsaUNBQUEsQ0FDQSw0REFBQSxDQUdFLDBDQUFBLENBQ0Esb0VBQUEsQ0FEQSwwQ0FBQSxDQUNBLG9FQUFBLENBREEseUNBQUEsQ0FDQSxtRUFBQSxDQURBLDRDQUFBLENBQ0Esc0VBQUEsQ0FEQSx3Q0FBQSxDQUNBLGtFQUFBLENBREEsdUNBQUEsQ0FDQSxnRUFBQSxDQURBLDRDQUFBLENBQ0Esc0VBQUEsQ0FEQSx1Q0FBQSxDQUNBLGlFQUFBLENBREEsMENBQUEsQ0FDQSxxRUFBQSxDQURBLHNDQUFBLENBQ0EsK0RBQUEsQ0FEQSxrREFBQSxDQUNBLDhFQUFBLENBSUosbUNBQ0UsTUFFRSxxQ0FBQSxDQUNBLHFDQUFBLENBQ0Esa0NBQUEsQ0FFQSxtQ0FBQSxDQUNBLHFDQUFBLENBQ0Esa0NBQUEsQ0FHQSwrQ0FBQSxDQUNBLHdEQUFBLENBR0Esc0NBQUEsQ0FBQSxDQzNFSixnQkFDSSx5QkFBQSxDQUNBLG1CQUFBLENB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Q0FFQSxVQUNJLGFBQUEsQ0FDSiw4QkFDSSxnQkFBQSxDQUNKLDRCQUNJLGlCQUFBIiwiZmlsZSI6InN0eWxlLm1pbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBUaGlzIGZpbGUgZGVmaW5lcyBhbGwgdGhlIGtub2JzIHRoYXQgY2FuIGJlIHR3ZWFrZWQgYnkgZW5kIHVzZXJzLlxuLy8gYWRhcGF0ZWQgZnJvbTogaHR0cHM6Ly9naXRodWIuY29tL3ByYWR5dW5zZy9mdXJvL2Jsb2IvZmUwMDg4MzYzYTE2M2NkOWQ2ZmZhZjI3NDU2MDUzMzUwMWU5MzViNS9zcmMvZnVyby9hc3NldHMvc3R5bGVzL3ZhcmlhYmxlcy9faW5kZXguc2NzcyNMMVxuXG4vLyBBZG1vbml0aW9uc1xuLy9cbi8vIFN0cnVjdHVyZSBvZiB0aGVzZTogKGNvbG9yLCBrZXktaW4tJGljb25zKS5cbi8vIFRoZSBjb2xvcnMgYXJlIHRyYW5zbGF0ZWQgaW50byBDU1MgdmFyaWFibGVzIGJlbG93LCBhbmQgaWNvbnMgYXJlIHVzZWQgZm9yXG4vLyB0aGUgZGVjbGFyYXRpb25zLlxuJGFkbW9uaXRpb24tZGVmYXVsdDogIzY1MWZmZiBcImFic3RyYWN0XCI7XG4kYWRtb25pdGlvbnM6IChcbiAgLy8gRWFjaCBvZiB0aGVzZSBoYXMgYSByZVNUIGRpcmVjdGl2ZXMgZm9yIGl0LlxuICBcImNhdXRpb25cIjogI2ZmOTEwMCBcInNwYXJrXCIsXG4gIFwid2FybmluZ1wiOiAjZmY5MTAwIFwid2FybmluZ1wiLFxuICBcImRhbmdlclwiOiAjZmY1MjUyIFwic3BhcmtcIixcbiAgXCJhdHRlbnRpb25cIjogI2ZmNTI1MiBcIndhcm5pbmdcIixcbiAgXCJlcnJvclwiOiAjZmY1MjUyIFwiZmFpbHVyZVwiLFxuICBcImhpbnRcIjogIzAwYzg1MiBcInF1ZXN0aW9uXCIsXG4gIFwiaW1wb3J0YW50XCI6ICMwMGJmYTUgXCJmbGFtZVwiLFxuICBcIm5vdGVcIjogIzAwYjBmZiBcInBlbmNpbFwiLFxuICBcInNlZWFsc29cIjogIzQ0OGFmZiBcImluZm9cIixcbiAgXCJ0aXBcIjogIzAwYzg1MiBcImluZm9cIixcbiAgXCJhZG1vbml0aW9uLXRvZG9cIjogIzgwODA4MCBcInBlbmNpbFwiXG4pO1xuXG46cm9vdCB7XG4gIC8vIEJhc2UgQ29sb3JzXG4gIC0tY29sb3ItZm9yZWdyb3VuZC1wcmltYXJ5OiBibGFjazsgLy8gZm9yIG1haW4gdGV4dCBhbmQgaGVhZGluZ3NcbiAgLS1jb2xvci1mb3JlZ3JvdW5kLXNlY29uZGFyeTogIzVhNWM2MzsgLy8gZm9yIHNlY29uZGFyeSB0ZXh0XG4gIC0tY29sb3ItZm9yZWdyb3VuZC1ib3JkZXI6ICM4Nzg3ODc7IC8vIGZvciBjb250ZW50IGJvcmRlcnNcblxuICAtLWNvbG9yLWJhY2tncm91bmQtcHJpbWFyeTogd2hpdGU7IC8vIGZvciBjb250ZW50XG4gIC0tY29sb3ItYmFja2dyb3VuZC1zZWNvbmRhcnk6ICNmOGY5ZmI7IC8vIGZvciBuYXZpZ2F0aW9uICsgVG9DXG4gIC0tY29sb3ItYmFja2dyb3VuZC1ib3JkZXI6ICNlZWViZWU7IC8vIGZvciBVSSBib3JkZXJzXG5cbiAgLy8gSWNvbnNcbiAgQGVhY2ggJG5hbWUsICRnbHlwaCBpbiAkaWNvbnMge1xuICAgIC0taWNvbi0jeyRuYW1lfTogI3skZ2x5cGh9O1xuICB9XG4gIC0taWNvbi1hZG1vbml0aW9uLWRlZmF1bHQ6IHZhcigtLWljb24tI3tudGgoJGFkbW9uaXRpb24tZGVmYXVsdCwgMil9KTtcblxuICAvLyBEaXJlY3RpdmVzXG4gIC0tY29sb3ItZGlyZWN0aXZlLXVuaGFuZGxlZC1iYWNrZ3JvdW5kOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMyk7XG4gIC0tY29sb3ItZGlyZWN0aXZlLWVycm9yLWJhY2tncm91bmQ6IHJnYmEoMjU1LCAwLCAwLCAwLjQpO1xuXG4gIC8vIEFkbW9uaXRpb25zXG4gIC0tYWRtb25pdGlvbi1mb250LXNpemU6IDAuODEyNXJlbTtcbiAgLS1hZG1vbml0aW9uLXRpdGxlLWZvbnQtc2l6ZTogMC44MTI1cmVtO1xuICAtLWljb24tYWRtb25pdGlvbi1kZWZhdWx0OiB2YXIoLS1pY29uLSN7bnRoKCRhZG1vbml0aW9uLWRlZmF1bHQsIDIpfSk7XG4gIC8vIE5vdGUgdGhpcyBiYWNrZ3JvdW5kIGlzIHRyYW5zcGFyZW50IGluIGZ1cm8sIGJ1dCB3ZSB3YW50IGRhcmsgdGV4dCB0byBzdGlsbCB3b3JrIGZvciBkYXJrIGJhY2tncm91bmRzXG4gIC0tY29sb3ItYWRtb25pdGlvbi1iYWNrZ3JvdW5kOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMyk7XG4gIC0tY29sb3ItYWRtb25pdGlvbi10aXRsZTogI3tudGgoJGFkbW9uaXRpb24tZGVmYXVsdCwgMSl9O1xuICAtLWNvbG9yLWFkbW9uaXRpb24tdGl0bGUtYmFja2dyb3VuZDogI3tyZ2JhKG50aCgkYWRtb25pdGlvbi1kZWZhdWx0LCAxKSwgMC4xKX07XG5cbiAgQGVhY2ggJG5hbWUsICR2YWx1ZXMgaW4gJGFkbW9uaXRpb25zIHtcbiAgICAtLWNvbG9yLWFkbW9uaXRpb24tdGl0bGUtLSN7JG5hbWV9OiAje250aCgkdmFsdWVzLCAxKX07XG4gICAgLS1jb2xvci1hZG1vbml0aW9uLXRpdGxlLWJhY2tncm91bmQtLSN7JG5hbWV9OiAje3JnYmEobnRoKCR2YWx1ZXMsIDEpLCAwLjEpfTtcbiAgfVxufVxuXG5AbWVkaWEgKHByZWZlcnMtY29sb3Itc2NoZW1lOiBkYXJrKSB7XG4gIDpyb290IHtcbiAgICAvLyBCYXNlIENvbG9yc1xuICAgIC0tY29sb3ItZm9yZWdyb3VuZC1wcmltYXJ5OiAjZmZmZmZmZDk7IC8vIGZvciBtYWluIHRleHQgYW5kIGhlYWRpbmdzXG4gICAgLS1jb2xvci1mb3JlZ3JvdW5kLXNlY29uZGFyeTogIzljYTBhNTsgLy8gZm9yIHNlY29uZGFyeSB0ZXh0XG4gICAgLS1jb2xvci1mb3JlZ3JvdW5kLWJvcmRlcjogIzY2NjY2NjsgLy8gZm9yIGNvbnRlbnQgYm9yZGVyc1xuXG4gICAgLS1jb2xvci1iYWNrZ3JvdW5kLXByaW1hcnk6ICMxMzE0MTY7IC8vIGZvciBjb250ZW50XG4gICAgLS1jb2xvci1iYWNrZ3JvdW5kLXNlY29uZGFyeTogIzFhMWMxZTsgLy8gZm9yIG5hdmlnYXRpb24gKyBUb0NcbiAgICAtLWNvbG9yLWJhY2tncm91bmQtYm9yZGVyOiAjMzAzMzM1OyAvLyBmb3IgVUkgYm9yZGVyc1xuXG4gICAgLy8gRGlyZWN0aXZlc1xuICAgIC0tY29sb3ItZGlyZWN0aXZlLXVuaGFuZGxlZC1iYWNrZ3JvdW5kOiAjMzMzMzM4O1xuICAgIC0tY29sb3ItZGlyZWN0aXZlLWVycm9yLWJhY2tncm91bmQ6IHJnYmEoMTgwLCA2LCA2LCAwLjgpO1xuXG4gICAgLy8gQWRtb25pdGlvbnNcbiAgICAtLWNvbG9yLWFkbW9uaXRpb24tYmFja2dyb3VuZDogIzE4MTgxYTtcbiAgfVxufVxuIiwiLnJvbGUtdW5oYW5kbGVkXG4gICAgb3V0bGluZTogMXB4IHNvbGlkIGxpZ2h0Z3JleVxuICAgIGJvcmRlci1yYWRpdXM6IDAuMnJlbVxuICAgIHBhZGRpbmctbGVmdDogMC4xMjVyZW1cbiAgICBwYWRkaW5nLXJpZ2h0OiAwLjEyNXJlbVxuXG4gICAgLy8gdGhlIG5hbWUgb2YgdGhlIHJvbGVcbiAgICBtYXJrXG4gICAgICAgIHRleHQtZGVjb3JhdGlvbi1saW5lOiB1bmRlcmxpbmVcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogdW5zZXRcbiAgICAgICAgY29sb3I6IHVuc2V0XG5cbiAgICAvLyB0aGUgY29udGVudCBvZiB0aGUgcm9sZVxuICAgIGNvZGVcbiAgICAgICAgcGFkZGluZy1sZWZ0OiAwLjE1cmVtXG4iLCIuZGlyZWN0aXZlLXVuaGFuZGxlZCwgLmRpcmVjdGl2ZS1lcnJvclxuICAgIG1hcmdpbjogMXJlbSBhdXRvXG4gICAgcGFkZGluZzogMC41cmVtXG4gICAgb3V0bGluZTogMC4wNjI1cmVtIHNvbGlkIGxpZ2h0Z3JleVxuICAgIGJvcmRlci1yYWRpdXM6IDAuMnJlbVxuICAgIG92ZXJmbG93OiBhdXRvXG5cbiAgICAvLyB0ZXh0IGNvbG9yXG4gICAgY29sb3I6IHZhcigtLWNvbG9yLWZvcmVncm91bmQtcHJpbWFyeSlcblxuICAgIC8vIEZpcnN0IGVsZW1lbnQgc2hvdWxkIGhhdmUgbm8gbWFyZ2luLCBzaW5jZSB0aGUgdGl0bGUgaGFzIGl0LlxuICAgID4gOm50aC1jaGlsZCgyKVxuICAgICAgICBtYXJnaW4tdG9wOiAwXG5cbiAgICAvLyBMYXN0IGl0ZW0gc2hvdWxkIGhhdmUgbm8gbWFyZ2luLCBzaW5jZSB3ZSdsbCBjb250cm9sIHRoYXQgdy8gcGFkZGluZ1xuICAgID4gOmxhc3QtY2hpbGRcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMFxuXG4gICAgaGVhZGVyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDAuNXJlbVxuXG4gICAgLy8gVGhlIG5hbWUgb2YgdGhlIGRpcmVjdGl2ZVxuICAgIG1hcmtcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uLWxpbmU6IHVuZGVybGluZVxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB1bnNldFxuICAgICAgICBjb2xvcjogdmFyKC0tY29sb3ItZm9yZWdyb3VuZC1wcmltYXJ5KVxuXG4uZGlyZWN0aXZlLXVuaGFuZGxlZFxuICAgIG91dGxpbmU6IDAuMDYyNXJlbSBzb2xpZCBsaWdodGdyZXlcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1kaXJlY3RpdmUtdW5oYW5kbGVkLWJhY2tncm91bmQpXG5cbi5kaXJlY3RpdmUtZXJyb3JcbiAgICBvdXRsaW5lOiAwLjA2MjVyZW0gc29saWQgbGlnaHRjb3JhbFxuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLWRpcmVjdGl2ZS1lcnJvci1iYWNrZ3JvdW5kKVxuIiwiLy8gQ29waWVkIGZyb206IGh0dHBzOi8vZ2l0aHViLmNvbS9wcmFkeXVuc2cvZnVyby9ibG9iL2ZlMDA4ODM2M2ExNjNjZDlkNmZmYWYyNzQ1NjA1MzM1MDFlOTM1YjUvc3JjL2Z1cm8vYXNzZXRzL3N0eWxlcy9jb250ZW50L19hZG1vbml0aW9ucy5zYXNzI0wxXG4uYWRtb25pdGlvblxuICBtYXJnaW46IDFyZW0gYXV0b1xuICBwYWRkaW5nOiAwIDAuNXJlbSAwLjVyZW0gMC41cmVtXG5cbiAgYmFja2dyb3VuZDogdmFyKC0tY29sb3ItYWRtb25pdGlvbi1iYWNrZ3JvdW5kKVxuICAvLyBjb3BpZWQgZnJvbSBiYXNlL190aGVtZS5zYXNzIGJvZHlcbiAgY29sb3I6IHZhcigtLWNvbG9yLWZvcmVncm91bmQtcHJpbWFyeSlcblxuICBib3JkZXItcmFkaXVzOiAwLjJyZW1cbiAgYm9yZGVyLWxlZnQ6IDAuMnJlbSBzb2xpZCB2YXIoLS1jb2xvci1hZG1vbml0aW9uLXRpdGxlKVxuICBib3gtc2hhZG93OiAwIDAuMnJlbSAwLjVyZW0gcmdiYSgwLCAwLCAwLCAwLjA1KSwgMCAwIDAuMDYyNXJlbSByZ2JhKDAsIDAsIDAsIDAuMSlcblxuICBmb250LXNpemU6IHZhcigtLWFkbW9uaXRpb24tZm9udC1zaXplKVxuXG4gIG92ZXJmbG93OiBhdXRvXG4gIHBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZFxuXG4gIC8vIEZpcnN0IGVsZW1lbnQgc2hvdWxkIGhhdmUgbm8gbWFyZ2luLCBzaW5jZSB0aGUgdGl0bGUgaGFzIGl0LlxuICA+IDpudGgtY2hpbGQoMilcbiAgICBtYXJnaW4tdG9wOiAwXG5cbiAgLy8gTGFzdCBpdGVtIHNob3VsZCBoYXZlIG5vIG1hcmdpbiwgc2luY2Ugd2UnbGwgY29udHJvbCB0aGF0IHcvIHBhZGRpbmdcbiAgPiA6bGFzdC1jaGlsZFxuICAgIG1hcmdpbi1ib3R0b206IDBcblxuXG4gIC8vIERlZmF1bHRzIGZvciBhbGwgYWRtb25pdGlvbnNcbiAgcC5hZG1vbml0aW9uLXRpdGxlXG4gICAgcG9zaXRpb246IHJlbGF0aXZlXG4gICAgbWFyZ2luOiAwIC0wLjVyZW0gMC41cmVtXG4gICAgcGFkZGluZzogMC41cmVtIDAuNXJlbSAwLjVyZW0gMnJlbVxuXG4gICAgZm9udC13ZWlnaHQ6IDUwMFxuICAgIGZvbnQtc2l6ZTogdmFyKC0tYWRtb25pdGlvbi10aXRsZS1mb250LXNpemUpXG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItYWRtb25pdGlvbi10aXRsZS1iYWNrZ3JvdW5kKVxuXG4gICAgbGluZS1oZWlnaHQ6IDEuM1xuXG4gICAgLy8gT3VyIGZhbmN5IGljb25cbiAgICAmOjpiZWZvcmVcbiAgICAgIGNvbnRlbnQ6IFwiXCJcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZVxuICAgICAgbGVmdDogMC41cmVtXG4gICAgICB3aWR0aDogMXJlbVxuICAgICAgaGVpZ2h0OiAxcmVtXG4gICAgICAvLyBjb2xvcjogdmFyKC0tY29sb3ItYWRtb25pdGlvbi10aXRsZSlcbiAgICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLWFkbW9uaXRpb24tdGl0bGUpXG5cbiAgICAgIG1hc2staW1hZ2U6IHZhcigtLWljb24tYWRtb25pdGlvbi1kZWZhdWx0KVxuICAgICAgbWFzay1yZXBlYXQ6IG5vLXJlcGVhdFxuXG4gIC8vXG4gIC8vIFZhcmlhbnRzXG4gIC8vXG4gIEBlYWNoICR0eXBlLCAkdmFsdWUgaW4gJGFkbW9uaXRpb25zXG4gICAgJi4jeyR0eXBlfVxuICAgICAgYm9yZGVyLWxlZnQtY29sb3I6IHZhcigtLWNvbG9yLWFkbW9uaXRpb24tdGl0bGUtLSN7JHR5cGV9KVxuICAgICAgPiAuYWRtb25pdGlvbi10aXRsZVxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1hZG1vbml0aW9uLXRpdGxlLWJhY2tncm91bmQtLSN7JHR5cGV9KVxuICAgICAgICAmOjpiZWZvcmVcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1hZG1vbml0aW9uLXRpdGxlLS0jeyR0eXBlfSlcbiAgICAgICAgICBtYXNrLWltYWdlOiB2YXIoLS1pY29uLSN7bnRoKCR2YWx1ZSwgMil9KVxuXG4uYWRtb25pdGlvbi10b2RvID4gLmFkbW9uaXRpb24tdGl0bGVcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZVxuIiwiaW1nXG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveFxuICAgIG1heC13aWR0aDogMTAwJVxuICAgIGhlaWdodDogYXV0b1xuXG5pbWcsIGZpZ3VyZVxuICAgICYuYWxpZ24tbGVmdFxuICAgICAgICBjbGVhcjogbGVmdFxuICAgICAgICBmbG9hdDogbGVmdFxuICAgICAgICBtYXJnaW4tcmlnaHQ6IDFlbVxuXG4gICAgJi5hbGlnbi1yaWdodFxuICAgICAgICBjbGVhcjogcmlnaHRcbiAgICAgICAgZmxvYXQ6IHJpZ2h0XG4gICAgICAgIG1hcmdpbi1yaWdodDogMWVtXG5cbiAgICAmLmFsaWduLWNlbnRlciwgJi5hbGlnbi1kZWZhdWx0XG4gICAgICAgIGRpc3BsYXk6IGJsb2NrXG4gICAgICAgIG1hcmdpbi1sZWZ0OiBhdXRvXG4gICAgICAgIG1hcmdpbi1yaWdodDogYXV0b1xuXG5maWdjYXB0aW9uXG4gICAgZm9udC1zdHlsZTogaXRhbGljXG4gICAgdGV4dC1hbGlnbjogY2VudGVyXG4iLCJ0YWJsZVxuICAgIGJvcmRlci1yYWRpdXM6IDAuMnJlbVxuICAgIGJvcmRlci1zcGFjaW5nOiAwXG4gICAgYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZVxuXG4gICAgYm94LXNoYWRvdzogMCAwLjJyZW0gMC41cmVtIHJnYmEoMCwgMCwgMCwgMC4wNSksIDAgMCAwLjA2MjVyZW0gcmdiYSgwLCAwLCAwLCAwLjEpXG5cbiAgICAmID4gY2FwdGlvblxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMC4yNXJlbVxuXG50aFxuICAgIGJhY2tncm91bmQ6IHZhcigtLWNvbG9yLWJhY2tncm91bmQtc2Vjb25kYXJ5KVxuICAgIGNvbG9yOiB2YXIoLS1jb2xvci1mb3JlZ3JvdW5kLXByaW1hcnkpXG5cbnRkLFxudGhcbiAgICAvLyBTcGFjZSB0aGluZ3Mgb3V0IHByb3Blcmx5XG4gICAgcGFkZGluZzogMCAwLjI1cmVtXG5cbiAgICAvLyBHZXQgdGhlIGJvcmRlcnMgbG9va2luZyBqdXN0LXJpZ2h0LlxuICAgIGJvcmRlci1sZWZ0OiAxcHggc29saWQgdmFyKC0tY29sb3ItYmFja2dyb3VuZC1ib3JkZXIpXG4gICAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgdmFyKC0tY29sb3ItYmFja2dyb3VuZC1ib3JkZXIpXG4gICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIHZhcigtLWNvbG9yLWJhY2tncm91bmQtYm9yZGVyKVxuXG4gICAgcFxuICAgICAgICBtYXJnaW46IDAuMjVyZW1cbiAgICAmOmZpcnN0LWNoaWxkXG4gICAgICAgIGJvcmRlci1sZWZ0OiBub25lXG4gICAgJjpsYXN0LWNoaWxkXG4gICAgICAgIGJvcmRlci1yaWdodDogbm9uZVxuIl19 */
+/* From extension marp-team.marp-vscode */
+#__marp-vscode {
+  all: initial;
+}
+
+/* Override VS Code default CSS rules reverting to initial
+   https://github.com/microsoft/vscode/blob/master/src/vs/workbench/contrib/webview/browser/pre/main.js#L53 */
+body.marp-vscode {
+  padding: 0;
+}
+
+body.marp-vscode img {
+  max-width: unset;
+  max-height: unset;
+}
+
+body.marp-vscode a,
+body.marp-vscode a:hover,
+body.marp-vscode code {
+  color: unset;
+}
+
+body.marp-vscode blockquote {
+  background: unset;
+  border-color: unset;
+}
+
+@media screen {
+  body.marp-vscode {
+    overflow-y: scroll;
+  }
+
+  #__marp-vscode [data-marp-vscode-slide-wrapper] {
+    margin: 20px;
+  }
+
+  #__marp-vscode svg[data-marpit-svg] {
+    box-shadow: 0 5px 10px rgb(0 0 0 / 25%);
+    display: block;
+    margin: 0;
+  }
+
+  /* Based on https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+  #code-csp-warning {
+    background-color: #444;
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 25%);
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 16px;
+    padding: 6px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    word-wrap: break-word;
+  }
+
+  #code-csp-warning:hover {
+    text-decoration: none;
+    background-color: #007acc;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 25%);
+  }
+}
+
+@media print {
+  body.marp-vscode #code-csp-warning {
+    display: none;
+  }
+}
+
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <style id="__marp-vscode-style">@import '~highlight.js/styles/github-gist';div#__marp-vscode > div > svg > foreignObject > section {
+  width: 1280px;
+  height: 720px;
+
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+
+  scroll-snap-align: center center;
+}div#__marp-vscode > div > svg > foreignObject > section::after {
+  bottom: 0;
+  content: attr(data-marpit-pagination);
+  padding: inherit;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}div#__marp-vscode > div > svg > foreignObject > section:not([data-marpit-pagination])::after {
+  display: none;
+}/* Normalization */div#__marp-vscode > div > svg > foreignObject > section :is(h1, marp-h1) {
+  font-size: 2em;
+  margin: 0.67em 0;
+}div#__marp-vscode > div > svg > foreignObject > section video::-webkit-media-controls {
+  will-change: transform;
+}@page {
+  size: 1280px 720px;
+  margin: 0;
+}@media print {html, body {
+  background-color: #fff;
+  margin: 0;
+  page-break-inside: avoid;
+  break-inside: avoid-page;
+}
+  div#__marp-vscode > div > svg > foreignObject > section {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  div#__marp-vscode > div > svg > foreignObject > section, div#__marp-vscode > div > svg > foreignObject > section * {
+    -webkit-print-color-adjust: exact !important;
+    animation-delay: 0s !important;
+    animation-duration: 0s !important;
+    color-adjust: exact !important;
+    transition: none !important;
+  }
+
+  div#__marp-vscode > div > svg[data-marpit-svg] {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+div#__marp-vscode > div > svg > foreignObject > section img[data-marp-twemoji]{
+  background:transparent;
+  height:1em;
+  margin:0 .05em 0 .1em;
+  vertical-align:-.1em;
+  width:1em;
+}
+
+/* @theme simple */
+
+div#__marp-vscode > div > svg > foreignObject > section {
+    width: 1280px; /* 960px for 4:3; 1280px for wide */
+    height: 720px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    padding: 0 40px;
+    background-color: white;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section {
+    --marpit-root-font-size: 26px;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section :is(h1, marp-h1), div#__marp-vscode > div > svg > foreignObject > section :is(h2, marp-h2) {
+    font-size: 30px;
+    color: black;
+    padding-bottom: 15px;
+    border-bottom: 4px solid lightgray;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section p, div#__marp-vscode > div > svg > foreignObject > section li {
+  line-height: 1.3;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section a {
+  color: darkgray;
+
+}
+
+/* Page number */
+div#__marp-vscode > div > svg > foreignObject > section::after {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  font-size: 15px;
+  color: gray;
+}
+div#__marp-vscode > div > svg > foreignObject > section::after {
+  --marpit-root-font-size: 15px;
+}
+
+/* Footer */
+div#__marp-vscode > div > svg > foreignObject > section footer {
+  position: fixed;
+  left: 40px;
+  bottom: 20px;
+  font-size: 15px;
+  color: gray;
+}
+
+/* Reference */
+div#__marp-vscode > div > svg > foreignObject > section.ref p {
+  position: fixed;
+  bottom: 20px;
+  font-size: 20px;
+  color: gray;
+}
+
+/* Tables */
+div#__marp-vscode > div > svg > foreignObject > section table, div#__marp-vscode > div > svg > foreignObject > section th, div#__marp-vscode > div > svg > foreignObject > section td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px 15px;
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+/* Code Blocks */
+div#__marp-vscode > div > svg > foreignObject > section code {
+  font-family: Consolas, 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+
+/* Cover Setting*/
+div#__marp-vscode > div > svg > foreignObject > section.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section.cover :is(h1, marp-h1) {
+  font-size: 50px;
+  border: none;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section.cover p {
+  line-height: 1.3;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section.cover footer, div#__marp-vscode > div > svg > foreignObject > section.cover::after {
+  display: none;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section .katex {
+  font-size: 26px;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section section.katex {
+  --marpit-root-font-size: 26px;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section img[alt~="right"] {
+  float: right;
+  display: inline;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section blockquote {
+  font-style: normal;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  bottom: 20px;
+  font-size: 20px;
+  color: gray;
+  border: none;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section a[href='group'] {
+  display: flex;
+  justify-content: center;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Two Columns Setting*/
+div#__marp-vscode > div > svg > foreignObject > section.twocol > ul,
+div#__marp-vscode > div > svg > foreignObject > section.sixty > ul,
+div#__marp-vscode > div > svg > foreignObject > section.seventy > ul,
+div#__marp-vscode > div > svg > foreignObject > section.eighty > ul {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section.twocol > ul {
+  max-width: 45%;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section.sixty > ul {
+  max-width: 60%;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section.seventy > ul {
+  max-width: 70%;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section.eighty > ul {
+  max-width: 80%;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section.twocol > p:has(img),
+div#__marp-vscode > div > svg > foreignObject > section.sixty > p:has(img),
+div#__marp-vscode > div > svg > foreignObject > section.seventy > p:has(img),
+div#__marp-vscode > div > svg > foreignObject > section.eighty > p:has(img) {
+  float: right;
+  margin: 0;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section li:has(:is(span, marp-span)[class="katex"]):not(li:has(ul)),
+div#__marp-vscode > div > svg > foreignObject > section.twocol li:has(:is(span, marp-span)[class="katex"]):not(li:has(ul)),
+div#__marp-vscode > div > svg > foreignObject > section.sixty li:has(:is(span, marp-span)[class="katex"]):not(li:has(ul)),
+div#__marp-vscode > div > svg > foreignObject > section.seventy li:has(:is(span, marp-span)[class="katex"]):not(li:has(ul)),
+div#__marp-vscode > div > svg > foreignObject > section.eighty li:has(:is(span, marp-span)[class="katex"]):not(li:has(ul)) {
+  margin: 10px 0;
+  list-style-type: none;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section li:has(img) {
+  list-style-type: none;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section.twocol > br,
+div#__marp-vscode > div > svg > foreignObject > section.sixty > br,
+div#__marp-vscode > div > svg > foreignObject > section.seventy > br,
+div#__marp-vscode > div > svg > foreignObject > section.eighty > br {
+  display: none;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background="background"] {
+  columns: initial !important;
+  display: block !important;
+  padding: 0 !important;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background="background"]::before,
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background="background"]::after,
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background="content"]::before,
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background="content"]::after {
+  display: none !important;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background="background"] > div[data-marpit-advanced-background-container] {
+  all: initial;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background="background"] > div[data-marpit-advanced-background-container][data-marpit-advanced-background-direction="vertical"] {
+  flex-direction: column;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background="background"][data-marpit-advanced-background-split] > div[data-marpit-advanced-background-container] {
+  width: var(--marpit-advanced-background-split, 50%);
+}
+
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background="background"][data-marpit-advanced-background-split="right"] > div[data-marpit-advanced-background-container] {
+  margin-left: calc(100% - var(--marpit-advanced-background-split, 50%));
+}
+
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background="background"] > div[data-marpit-advanced-background-container] > figure {
+  all: initial;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: auto;
+  margin: 0;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background="content"],
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background="pseudo"] {
+  background: transparent !important;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background="pseudo"],
+div#__marp-vscode > div > svg[data-marpit-svg] > foreignObject[data-marpit-advanced-background="pseudo"] {
+  pointer-events: none !important;
+}
+
+div#__marp-vscode > div > svg > foreignObject > section[data-marpit-advanced-background-split] {
+  width: 100%;
+  height: 100%;
+}
+</style><div id="__marp-vscode"><div data-marp-vscode-slide-wrapper="" class="code-line" data-line="0"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720">
+<section id="1" data-paginate="true" data-class="cover" data-theme="simple" data-heading-divider="2" class="cover" data-marpit-pagination="1" data-marpit-pagination-total="8" style="--paginate:true;--class:cover;--theme:simple;--heading-divider:2;">
+<h1 id="olympus-ix70-inverted-microscope" class="code-line" data-line="11">Olympus IX70 Inverted Microscope</h1>
+<p class="code-line" data-line="13">Teng-Jui Lin<br />
+Department of Chemical Engineering, University of Washington<br />
+<strong>Surface and Colloid Science</strong></p>
+</section>
+</foreignObject></svg></div><div data-marp-vscode-slide-wrapper="" class="code-line" data-line="17"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720">
+<section id="2" data-paginate="true" data-theme="simple" data-heading-divider="2" data-marpit-pagination="2" data-marpit-pagination-total="8" style="--paginate:true;--theme:simple;--heading-divider:2;">
+<h2 id="inverted-microscope-setup" class="code-line" data-line="17">Inverted microscope setup</h2>
+<p class="code-line" data-line="19"><img src="microscope-left.jpeg" alt="" style="height:550px;" />   <img src="microscope-right.jpeg" alt="" style="height:550px;" /></p>
+</section>
+</foreignObject></svg></div><div data-marp-vscode-slide-wrapper="" class="code-line" data-line="21"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720">
+<section id="3" data-paginate="true" data-theme="simple" data-heading-divider="2" data-marpit-pagination="3" data-marpit-pagination-total="8" style="--paginate:true;--theme:simple;--heading-divider:2;">
+<h2 id="startup" class="code-line" data-line="21">Startup</h2>
+<p class="code-line" data-line="23"><img src="power-button.jpeg" alt="" style="height:550px;" /></p>
+</section>
+</foreignObject></svg></div><div data-marp-vscode-slide-wrapper="" class="code-line" data-line="25"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720">
+<section id="4" data-paginate="true" data-theme="simple" data-heading-divider="2" data-marpit-pagination="4" data-marpit-pagination-total="8" style="--paginate:true;--theme:simple;--heading-divider:2;">
+<h2 id="basic-operations-light-focus-position" class="code-line" data-line="25">Basic operations: light, focus, position</h2>
+<ul class="code-line" data-line="27">
+<li class="code-line" data-line="27">Turn on and adjust light</li>
+<li class="code-line" data-line="28">Tune the focus</li>
+<li class="code-line" data-line="29">Change stage position</li>
+</ul>
+</section>
+</foreignObject></svg></div><div data-marp-vscode-slide-wrapper="" class="code-line" data-line="31"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720">
+<section id="5" data-paginate="true" data-theme="simple" data-heading-divider="2" data-marpit-pagination="5" data-marpit-pagination-total="8" style="--paginate:true;--theme:simple;--heading-divider:2;">
+<h2 id="calibration" class="code-line" data-line="31">Calibration</h2>
+<ul class="code-line" data-line="33">
+<li class="code-line" data-line="33">2.940 px/μm
+<ul class="code-line" data-line="34">
+<li class="code-line" data-line="34">10x objective</li>
+<li class="code-line" data-line="35">1x eyepiece</li>
+</ul>
+</li>
+</ul>
+</section>
+</foreignObject></svg></div><div data-marp-vscode-slide-wrapper="" class="code-line" data-line="37"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720">
+<section id="6" data-paginate="true" data-theme="simple" data-heading-divider="2" data-marpit-pagination="6" data-marpit-pagination-total="8" style="--paginate:true;--theme:simple;--heading-divider:2;">
+<h2 id="shutdown" class="code-line" data-line="37">Shutdown</h2>
+<ul class="code-line" data-line="39">
+<li class="code-line" data-line="39">Turn off the light</li>
+<li class="code-line" data-line="40">Turn off the microscope</li>
+</ul>
+</section>
+</foreignObject></svg></div><div data-marp-vscode-slide-wrapper="" class="code-line" data-line="42"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720">
+<section id="7" data-paginate="true" data-theme="simple" data-heading-divider="2" data-marpit-pagination="7" data-marpit-pagination-total="8" style="--paginate:true;--theme:simple;--heading-divider:2;">
+<h2 id="porous-structure-of-kimwipe" class="code-line" data-line="42">Porous structure of kimwipe</h2>
+<p class="code-line" data-line="44"><img src="kimwipe.jpeg" alt="" style="width:600px;" /></p>
+</section>
+</foreignObject></svg></div><div data-marp-vscode-slide-wrapper="" class="code-line" data-line="46"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720">
+<section id="8" data-paginate="true" data-class="twocol" data-theme="simple" data-heading-divider="2" class="twocol" data-marpit-pagination="8" data-marpit-pagination-total="8" style="--paginate:true;--class:twocol;--theme:simple;--heading-divider:2;">
+<h2 id="emulsion" class="code-line" data-line="46">Emulsion</h2>
+
+<p class="code-line" data-line="48"><img src="emulsion-cleaned.jpg" alt="" style="width:600px;" /></p>
+<p class="code-line" data-line="50"><img src="emulsion.jpg" alt="" style="width:600px;" /></p>
+</section>
+</foreignObject></svg></div></div>
+        
+        <script async type="text/javascript">
+/* From extension marp-team.marp-vscode */
+(()=>{var Y=Object.defineProperty;var d=($,E)=>Y($,"name",{value:E,configurable:!0});(()=>{var $={676:(w,b,g)=>{w.exports=g(185)},185:(w,b)=>{"use strict";var g;g={value:!0};const x={h1:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"1"},style:"display: block; font-size: 2em; margin-block-start: 0.67em; margin-block-end: 0.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h2:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"2"},style:"display: block; font-size: 1.5em; margin-block-start: 0.83em; margin-block-end: 0.83em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h3:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"3"},style:"display: block; font-size: 1.17em; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h4:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"4"},style:"display: block; margin-block-start: 1.33em; margin-block-end: 1.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h5:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"5"},style:"display: block; font-size: 0.83em; margin-block-start: 1.67em; margin-block-end: 1.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h6:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"6"},style:"display: block; font-size: 0.67em; margin-block-start: 2.33em; margin-block-end: 2.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},span:{proto:()=>HTMLSpanElement},pre:{proto:()=>HTMLElement,style:"display: block; font-family: monospace; white-space: pre; margin: 1em 0; --marp-auto-scaling-white-space: pre;"}},k="data-marp-auto-scaling-wrapper",u="data-marp-auto-scaling-svg",c="data-marp-auto-scaling-container";class r extends HTMLElement{constructor(){super(),this.svgPreserveAspectRatio="xMinYMid meet";const o=d(i=>([n])=>{const{width:e,height:t}=n.contentRect;this[i]={width:e,height:t},this.updateSVGRect()},"t");this.attachShadow({mode:"open"}),this.containerObserver=new ResizeObserver(o("containerSize")),this.wrapperObserver=new ResizeObserver((...i)=>{o("wrapperSize")(...i),this.flushSvgDisplay()})}static get observedAttributes(){return["data-downscale-only"]}connectedCallback(){var o,i,n,e,t;this.shadowRoot.innerHTML=`
+<style>
+  svg[${u}] { display: block; width: 100%; height: auto; vertical-align: top; }
+  span[${c}] { display: table; white-space: var(--marp-auto-scaling-white-space, nowrap); width: max-content; }
+</style>
+<div ${k}>
+  <svg part="svg" ${u}>
+    <foreignObject><span ${c}><slot></slot></span></foreignObject>
+  </svg>
+</div>
+    `.split(/\n\s*/).join(""),this.wrapper=(o=this.shadowRoot.querySelector(`div[${k}]`))!==null&&o!==void 0?o:void 0;const s=this.svg;this.svg=(n=(i=this.wrapper)===null||i===void 0?void 0:i.querySelector(`svg[${u}]`))!==null&&n!==void 0?n:void 0,this.svg!==s&&(this.svgComputedStyle=this.svg?window.getComputedStyle(this.svg):void 0),this.container=(t=(e=this.svg)===null||e===void 0?void 0:e.querySelector(`span[${c}]`))!==null&&t!==void 0?t:void 0,this.observe()}disconnectedCallback(){this.svg=void 0,this.svgComputedStyle=void 0,this.wrapper=void 0,this.container=void 0,this.observe()}attributeChangedCallback(){this.observe()}flushSvgDisplay(){const{svg:o}=this;o&&(o.style.display="inline",requestAnimationFrame(()=>{o.style.display=""}))}observe(){this.containerObserver.disconnect(),this.wrapperObserver.disconnect(),this.wrapper&&this.wrapperObserver.observe(this.wrapper),this.container&&this.containerObserver.observe(this.container),this.svgComputedStyle&&this.observeSVGStyle(this.svgComputedStyle)}observeSVGStyle(o){const i=d(()=>{const n=(()=>{const e=o.getPropertyValue("--preserve-aspect-ratio");return e?e.trim():`x${(({textAlign:t,direction:s})=>{if(t.endsWith("left"))return"Min";if(t.endsWith("right"))return"Max";if(t==="start"||t==="end"){let a=s==="rtl";return t==="end"&&(a=!a),a?"Max":"Min"}return"Mid"})(o)}YMid meet`})();n!==this.svgPreserveAspectRatio&&(this.svgPreserveAspectRatio=n,this.updateSVGRect()),o===this.svgComputedStyle&&requestAnimationFrame(i)},"e");i()}updateSVGRect(){var o,i,n,e,t,s,a;let p=Math.ceil((i=(o=this.containerSize)===null||o===void 0?void 0:o.width)!==null&&i!==void 0?i:0);const h=Math.ceil((e=(n=this.containerSize)===null||n===void 0?void 0:n.height)!==null&&e!==void 0?e:0);this.dataset.downscaleOnly!==void 0&&(p=Math.max(p,(s=(t=this.wrapperSize)===null||t===void 0?void 0:t.width)!==null&&s!==void 0?s:0));const f=(a=this.svg)===null||a===void 0?void 0:a.querySelector(":scope > foreignObject");if(f?.setAttribute("width",`${p}`),f?.setAttribute("height",`${h}`),this.svg&&(this.svg.setAttribute("viewBox",`0 0 ${p} ${h}`),this.svg.setAttribute("preserveAspectRatio",this.svgPreserveAspectRatio),this.svg.style.height=p<=0||h<=0?"0":""),this.container){const _=this.svgPreserveAspectRatio.toLowerCase();this.container.style.marginLeft=_.startsWith("xmid")||_.startsWith("xmax")?"auto":"0",this.container.style.marginRight=_.startsWith("xmi")?"auto":"0"}}}d(r,"s");const m=d((l,{attrs:o={},style:i})=>class extends l{constructor(...n){super(...n);for(const[e,t]of Object.entries(o))this.hasAttribute(e)||this.setAttribute(e,t);this.attachShadow({mode:"open"})}static get observedAttributes(){return["data-auto-scaling"]}connectedCallback(){this._update()}attributeChangedCallback(){this._update()}_update(){const n=i?`<style>:host { ${i} }</style>`:"";let e="<slot></slot>";const{autoScaling:t}=this.dataset;t!==void 0&&(e=`<marp-auto-scaling exportparts="svg:auto-scaling" ${t==="downscale-only"?"data-downscale-only":""}>${e}</marp-auto-scaling>`),this.shadowRoot.innerHTML=n+e}},"o");let v;const V=Symbol();let C;const j="marpitSVGPolyfill:setZoomFactor,",A=Symbol(),z=Symbol(),N=d(()=>{const l=navigator.vendor==="Apple Computer, Inc.",o=l?[D]:[],i={then:n=>(l?(async()=>{if(C===void 0){const e=document.createElement("canvas");e.width=10,e.height=10;const t=e.getContext("2d"),s=new Image(10,10),a=new Promise(p=>{s.addEventListener("load",()=>p())});s.crossOrigin="anonymous",s.src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%201%201%22%3E%3CforeignObject%20width%3D%221%22%20height%3D%221%22%20requiredExtensions%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%3E%3Cdiv%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%20style%3D%22width%3A%201px%3B%20height%3A%201px%3B%20background%3A%20red%3B%20position%3A%20relative%22%3E%3C%2Fdiv%3E%3C%2FforeignObject%3E%3C%2Fsvg%3E",await a,t.drawImage(s,0,0),C=t.getImageData(5,5,1,1).data[3]<128}return C})().then(e=>{n?.(e?[D]:[])}):n?.([]),i)};return Object.assign(o,i)},"h");let H,O;function D(l){const o=typeof l=="object"&&l.target||document,i=typeof l=="object"?l.zoom:l;window[z]||(Object.defineProperty(window,z,{configurable:!0,value:!0}),document.body.style.zoom=1.0001,document.body.offsetHeight,document.body.style.zoom=1,window.addEventListener("message",({data:e,origin:t})=>{if(t===window.origin)try{if(e&&typeof e=="string"&&e.startsWith(j)){const[,s]=e.split(","),a=Number.parseFloat(s);Number.isNaN(a)||(O=a)}}catch(s){console.error(s)}}));let n=!1;Array.from(o.querySelectorAll("svg[data-marpit-svg]"),e=>{var t,s,a,p;e.style.transform||(e.style.transform="translateZ(0)");const h=i||O||e.currentScale||1;H!==h&&(H=h,n=h);const f=e.getBoundingClientRect(),{length:_}=e.children;for(let T=0;T<_;T+=1){const S=e.children[T];if(S.getScreenCTM){const y=S.getScreenCTM();if(y){const G=(s=(t=S.x)===null||t===void 0?void 0:t.baseVal.value)!==null&&s!==void 0?s:0,I=(p=(a=S.y)===null||a===void 0?void 0:a.baseVal.value)!==null&&p!==void 0?p:0,Z=S.children.length;for(let F=0;F<Z;F+=1){const P=S.children[F];if(P.tagName==="SECTION"){const{style:R}=P;R.transformOrigin||(R.transformOrigin=`${-G}px ${-I}px`),R.transform=`scale(${h}) matrix(${y.a}, ${y.b}, ${y.c}, ${y.d}, ${y.e-f.left}, ${y.f-f.top}) translateZ(0.0001px)`;break}}}}}}),n!==!1&&Array.from(o.querySelectorAll("iframe"),({contentWindow:e})=>{e?.postMessage(`${j}${n}`,window.origin==="null"?"*":window.origin)})}d(D,"u");function B({once:l=!1,target:o=document}={}){const i=function(n=document){if(n[A])return n[A];let e=!0;const t=d(()=>{e=!1,delete n[A]},"i");Object.defineProperty(n,A,{configurable:!0,value:t});let s=[],a=!1;(async()=>{try{s=await N()}finally{a=!0}})();const p=d(()=>{for(const h of s)h({target:n});a&&s.length===0||e&&window.requestAnimationFrame(p)},"o");return p(),t}(o);return l?(i(),()=>{}):i}d(B,"v"),H=1,O=void 0;const W=B,M=Symbol(),L=d((l=document)=>{if(typeof window>"u")throw new Error("Marp Core's browser script is valid only in browser context.");if(((e=document)=>{const t=window[V];t||customElements.define("marp-auto-scaling",r);for(const s of Object.keys(x)){const a=`marp-${s}`,p=x[s].proto();v!=null||(v=!!document.createElement("div",{is:"marp-auto-scaling"}).outerHTML.startsWith("<div is")),v&&p!==HTMLElement?t||customElements.define(a,m(p,{style:x[s].style}),{extends:s}):(t||customElements.define(a,m(HTMLElement,x[s])),e.querySelectorAll(`${s}[is="${a}"]`).forEach(h=>{h.outerHTML=h.outerHTML.replace(new RegExp(`^<${s}`,"i"),`<${a}`).replace(new RegExp(`</${s}>$`,"i"),`</${a}>`)}))}window[V]=!0})(l),l[M])return l[M];const o=B({target:l}),i=d(()=>{o(),delete l[M]},"n"),n=Object.assign(i,{cleanup:i,update:()=>L(l)});return Object.defineProperty(l,M,{configurable:!0,value:n}),n},"y");b.browser=L,g=L,g=W}},E={};function q(w){var b=E[w];if(b!==void 0)return b.exports;var g=E[w]={exports:{}};return $[w](g,g.exports,q),g.exports}d(q,"__webpack_require__");var U={};(()=>{"use strict";var w=q(676);function b(){let u,c;const r=d(()=>{const m=document.getElementById("__marp-vscode"),v=!!m;u!==v?(document.body.classList.toggle("marp-vscode",v),v?c=(0,w.browser)():(c?.cleanup(),c=void 0),u=v):v&&c?.update(),u?(m&&g(m),x()):k()},"updateCallback");window.addEventListener("load",()=>window.setTimeout(r,100)),window.addEventListener("vscode.markdown.updateContent",r),r()}d(b,"preview");const g=d(u=>{u.querySelectorAll("[is]").forEach(c=>{if(c.nodeName.includes("-")||document.createElement(c.nodeName).constructor!==c.constructor)return;const{outerHTML:m}=c;c.outerHTML=m,console.debug("[marp-vscode] Custom element has been upgraded forcibly:",m.slice(0,m.indexOf(">")+1||void 0))})},"forceUpgradeCustomElements"),x=d(()=>{const u=document.querySelectorAll("style:not(#__marp-vscode-style,#_defaultStyles,[data-marp-vscode-body])"),c=document.querySelectorAll('link[rel="stylesheet"][href]:not([href*="marp-vscode"])');u.forEach(r=>{r.closest("#__marp-vscode")||(r.dataset.marpVscodeBody=r.textContent??"",r.textContent="")}),c.forEach(r=>{if(r.closest("#__marp-vscode"))return;const{href:m}=r;r.dataset.marpVscodeHref=m,r.removeAttribute("href")})},"removeStyles"),k=d(()=>{const u=document.querySelectorAll("style[data-marp-vscode-body]"),c=document.querySelectorAll("link[data-marp-vscode-href]");u.forEach(r=>{r.textContent=r.dataset.marpVscodeBody||"",delete r.dataset.marpVscodeBody}),c.forEach(r=>{r.href=r.dataset.marpVscodeHref||"",delete r.dataset.marpVscodeHref})},"restoreStyles");b()})()})();})();
+
+</script>
+
+    </body>
+    </html>
