@@ -62,7 +62,7 @@ Department of Chemical Engineering, University of Washington
 1. Calibration (cont.)
    5. Use a plastic syringe to draw >1 mL deionized water
    6. Remove all bubbles from the syringe
-   7. Inject deionized water into the U-tube (avoid air!)
+   7. Inject deionized water into the U-tube (avoid air bubbles!) fully, and leave the syringe on the side
    8. Record the period of water when value stabilizes or after 2 min
 
 ![height:350px](period-water.jpeg)
@@ -81,7 +81,7 @@ Department of Chemical Engineering, University of Washington
 2. Verify the calibration
    1. Use a screwdriver to switch densitometer to density mode (ρ)
    2. Read the density measurement of water and compare to literature
-   3. Draw out the water
+   3. Draw out the water, and remove the syringe
    4. Turn on the pump and put the airline in the U-tube until the U-tube is dry
    5. Read the density measurement of air and compare to literature
 
