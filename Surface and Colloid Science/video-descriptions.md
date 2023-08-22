@@ -9,6 +9,7 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
 
 - [Surface and Colloid Science Video Descriptions](#surface-and-colloid-science-video-descriptions)
   - [Laboratory](#laboratory)
+    - [Equipment: Densitometer](#equipment-densitometer)
     - [Equipment: Microplate Reader for Absorbance Measurement](#equipment-microplate-reader-for-absorbance-measurement)
     - [Equipment: Inverted Microscope](#equipment-inverted-microscope)
     - [I-A: Detachment and Partial Immersion Method for Surface Tension](#i-a-detachment-and-partial-immersion-method-for-surface-tension)
@@ -24,6 +25,38 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
     - [IV-E Breakup of Capillary Jet](#iv-e-breakup-of-capillary-jet)
 
 ## Laboratory
+
+### Equipment: Densitometer
+
+```
+We discussed theory for calibrating a densitometer relating vibrational period with liquid density. We also discussed practical aspects of using a densitometer.
+---------
+Course: CHEM E 455 Surface and Colloid Science Laboratory (Spring 2023)
+Course Instructor: Dr. John C. Berg, University of Washington
+Video Instructor: Teng-Jui Lin, undergraduate teaching assistant
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+- Jones, F. E., & Harris, G. L. (1992). ITS-90 Density of Water Formulation for Volumetric Standards Calibration. Journal of Research of the National Institute of Standards and Technology, 97(3), 335–340. https://doi.org/10.6028/jres.097.013
+- Koretsky, M. D. (2012). Engineering and Chemical Thermodynamics (2nd edition). Wiley.
+- McVay, C. W. (1989). Determination of Density with the Paar Digital Density Meter. https://www.nrc.gov/docs/ML0329/ML032960458.pdf
+- Richard Shelquist. (2023). Equations—Air Density and Density Altitude. https://wahiduddin.net/calc/density_altitude.htm
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:45 Calibration theory
+02:31 Calibration panel
+03:27 Period of air
+03:51 Period of water
+05:11 Calculate calibration constants
+05:40 Input calibration constants
+07:15 Measure density
+08:07 Shut down
+08:30 References
+```
 
 ### Equipment: Microplate Reader for Absorbance Measurement
 
