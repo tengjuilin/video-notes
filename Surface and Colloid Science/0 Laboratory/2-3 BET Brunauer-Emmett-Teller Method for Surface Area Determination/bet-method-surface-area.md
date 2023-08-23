@@ -3,7 +3,9 @@ marp: true
 theme: simple
 paginate: true
 footer:
+math: katex
 ---
+<!-- Marp for VS Code v2.6.0 -->
 
 <!-- headingDivider: 2 -->
 <!-- _class: cover -->
@@ -35,13 +37,13 @@ Department of Chemical Engineering, University of Washington
 - Mass of adsorbate desorbed
   - $X = \dfrac{p_a V_{\text{des}}}{RT} M_a$
 - Mass of adsorbate desorbed when solid is covered by a single adsorbate monolayer
-  - $X_m = \dfrac{p_a V_c (A/A_c)}{RT}A_c (1 - p/p_0)$
+  - $X_m = \dfrac{p_a V_c (A/A_c)}{RT}M_a (1 - p/p_0)$
 - Total surface area
   - $S_t = X_m \dfrac{N_0}{M_a}A_{cs}$
 - Specific surface area
   - $\boxed{\Sigma = \dfrac{S_t}{m}}$
 
-## Initial configuration of BET equipment
+## Initial configuration of FlowSorb Surface Area Analyzer
 
 - Initial configuration
   - Power: OFF
@@ -51,7 +53,7 @@ Department of Chemical Engineering, University of Washington
 
 ![width:600px center](flowsorb.jpg)
 
-## Startup procedure for the BET instrument
+## Startup procedure of FlowSorb Surface Area Analyzer
 <!-- _class: twocol -->
 - Startup
   - Open inert gas flow (30% nitrogen, 70% helium), wait 5 min
@@ -65,7 +67,7 @@ Department of Chemical Engineering, University of Washington
   - Weigh 0.02 g activated carbon in the sample holder
   - Place the sample holder on DEGAS and heat with a heating mantle, wait for 15 min (concurrent with start up)
 
-## Calibrating the BET instrument
+## Calibrating FlowSorb Surface Area Analyzer
 <!-- _class: twocol -->
 - Calibration
   - Flush gas syringe with evaporated nitrogen gas above the liquid nitrogen at DEGAS
@@ -93,7 +95,7 @@ Department of Chemical Engineering, University of Washington
     - Nitrogen gas starts to desorb form activated carbon
   - Wait until reading is stabilized, **record the value of SA** = desorption surface area
 
-## Shutdown procedure for the BET instrument
+## Shutdown procedure of FlowSorb Surface Area Analyzer
 <!-- _class: twocol -->
 - Shutdown
   - Power: OFF

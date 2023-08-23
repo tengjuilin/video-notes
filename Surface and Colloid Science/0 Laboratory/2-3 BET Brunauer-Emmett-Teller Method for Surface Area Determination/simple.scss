@@ -167,3 +167,10 @@ section.eighty li:has(span[class="katex"]):not(li:has(ul)) {
   margin: 10px 0;
   list-style-type: none;
 }
+
+section.twocol > br,
+section.sixty > br,
+section.seventy > br,
+section.eighty > br {
+  display: none;
+}
