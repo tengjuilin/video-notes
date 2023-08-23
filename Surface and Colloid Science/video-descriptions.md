@@ -17,6 +17,7 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
     - [I-C: Inverted Drop Weight Method - Interfacial Tension and Adsorption Isotherm](#i-c-inverted-drop-weight-method---interfacial-tension-and-adsorption-isotherm)
     - [II-B: Determining Contact Angles by Wilhelmy Method and Critical Surface Tension by Zisman Plot](#ii-b-determining-contact-angles-by-wilhelmy-method-and-critical-surface-tension-by-zisman-plot)
     - [II-C: Adsorption of Acetic Acid onto Activated Carbon (Charcoal)](#ii-c-adsorption-of-acetic-acid-onto-activated-carbon-charcoal)
+    - [II-C: BET (Brunauer-Emmett-Teller) Method for Surface Area Determination](#ii-c-bet-brunauer-emmett-teller-method-for-surface-area-determination)
     - [II-E: Wicking Flow in Porous Media](#ii-e-wicking-flow-in-porous-media)
     - [II-E: Derivation of the Wicking Equation for Inclined Capillary](#ii-e-derivation-of-the-wicking-equation-for-inclined-capillary)
     - [III-A Determination of Critical Micelle Concentration (CMC) by Dye Titration](#iii-a-determination-of-critical-micelle-concentration-cmc-by-dye-titration)
@@ -226,6 +227,35 @@ Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To N
 07:52 Langmuir isotherm
 16:43 Specific area by Langmuir isotherm
 18:58 Freundlich isotherm
+```
+
+### II-C: BET (Brunauer-Emmett-Teller) Method for Surface Area Determination
+
+```
+We discussed the theory behind the BET method and practical aspects of using a Flowsorb surface area analyzer.
+---------
+Course: CHEM E 455 Surface and Colloid Science Laboratory (Spring 2023)
+Course Instructor: Dr. John C. Berg, University of Washington
+Video Instructor: Teng-Jui Lin, undergraduate teaching assistant
+---------
+Video notes and slides available on GitHub: https://github.com/tengjuilin/video-notes
+Equation sheets available on GitHub: https://github.com/tengjuilin/equation-sheets
+Course notes available on GitHub: https://github.com/tengjuilin/course-notes
+---------
+References:
+Berg, J. C. (2009). Introduction To Interfaces And Colloids, An: The Bridge To Nanoscience (Illustrated edition). WSPC.
+---------
+%%% CHAPTERS %%%
+00:00 Intro
+00:11 BET isotherm
+04:05 BET method for surface area
+06:51 Initial configuration
+08:15 Startup
+10:02 Calibration
+11:36 Adsorption measurement
+12:35 Desorption measurement
+13:10 Shutdown
+13:25 Specific surface area
 ```
 
 ### II-E: Wicking Flow in Porous Media
